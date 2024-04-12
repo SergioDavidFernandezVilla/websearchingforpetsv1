@@ -1,0 +1,89 @@
+:root{
+    /* Frame 2 */
+--width: 1280px;
+--height: 832px;
+--background-color1:#5358D0;
+--background-color2:#454bf9;
+--color1:#526BAB;
+--color2:#FFFAFA;
+}
+
+.container_login_page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(180deg, rgba(176, 110, 169, 0.6039) 0%, rgba(213, 114, 203, 0.970517) 0.01%, rgba(216, 114, 206, 0.987965) 0.02%, rgba(218, 115, 208, 0.4455) 0.03%, rgba(163, 62, 153, 0.9207) 0.04%, rgba(201, 38, 185, 0.930166) 0.05%, rgba(254, 254, 254, 0.9207) 99.91%, rgba(212, 114, 202, 0.909113) 99.92%, rgba(216, 114, 206, 0.930166) 99.93%, rgba(216, 114, 206, 0.99) 99.94%, rgba(218, 115, 208, 0.99) 99.95%, rgba(218, 115, 208, 0.99) 99.96%, rgba(218, 115, 208, 0.8316) 99.97%, rgba(218, 115, 208, 0.81448) 99.98%);
+
+    & .login_page{
+        gap: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        & .login_page_form{
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+
+            & .login_page_input{
+                font-size: 21px;
+                width: 612px;
+                height: 46px;
+                border-radius: 30px;
+                padding-left: 15px;
+                border: none;
+            }
+
+            & .login_page_input:focus{
+                outline: none;
+                border: none;
+            }
+
+            
+
+            & .login_page_button{
+                cursor: pointer;
+                width: 456px;
+                height: 57px;
+                border-radius: 4px;
+                background-color: var(--background-color1);
+                font-size: 28px;
+                color:var(--color2);
+                font-weight: 500;
+                font-size:24px;
+                text-align: center;
+                border: none;
+            }
+
+            & .login_page_button:hover{
+                transition: all 0.3s ease-in-out; 
+                font-weight: 700;
+                background-color: var(--background-color2);
+            }
+
+            & .login_page_link{
+                margin-top: 5px;
+                color: var(--color1);
+                font-weight: 500;
+                font-size: 18px;
+            }
+
+            & .login_page_link:hover{
+                font-weight: 800;
+                cursor: pointer;
+                font-size: 20px;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
+
+
+

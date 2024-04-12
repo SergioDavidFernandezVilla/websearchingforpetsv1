@@ -1,0 +1,104 @@
+{
+    "userPost": [
+      {
+        "id": 1,
+        "perfil": "https://placeimg.com/640/480/any",
+        "name": "Leanne Graham",
+        "edad": "30",
+        "email": "JpjzK@example.com",
+        "descripcion": "Esto es una prueba",
+        "Direccion": {
+          "Calle": "Kulas Light"
+        },
+        "telefono": {
+          "numero_telefono": "1-770-736-8031 x56442"
+        },
+        "mascotas": {
+          "id": 1,
+          "nombre_mascota": "Lola",
+          "edad": 5,
+          "madurez": "Cachorro",
+          "raza": "Chihuahua",
+          "description": "Cachorro Chihuahua",
+          "image": "https://placeimg.com/640/480/any"
+        },
+        "amigos": [
+          {
+            "id": 2,
+            "nombre": "Ervin Howell",
+            "email": "Shanna@melissa.tv",
+            "telefono": {
+              "numero_telefono": "1-770-736-8031 x56442"
+            },
+            "direccion": {
+              "calle": "Victor Plains"
+            },
+            "imagen_perfil": "https://placeimg.com/150/150/people"
+          },
+          {
+            "id": 3,
+            "nombre": "Clementine Bauch",
+            "email": "Nathan@yesenia.net",
+            "telefono": {
+              "numero_telefono": "1-770-736-8031 x56442"
+            },
+            "direccion": {
+              "calle": "Douglas Extension"
+            },
+            "imagen_perfil": "https://placeimg.com/150/150/people"
+          }
+        ],
+        "publicaciones": [
+          {
+            "id": 1,
+            "titulo": "Mi primera publicación",
+            "contenido": "¡Hola a todos! Esta es mi primera publicación en esta red social.",
+            "fecha": "2024-04-11T10:00:00Z",
+            "likes": 20,
+            "comentarios": [
+              {
+                "id": 1,
+                "usuario": "Alice",
+                "contenido": "¡Genial! Bienvenido a la comunidad.",
+                "fecha": "2024-04-11T10:05:00Z",
+                "imagen_perfil": "https://placeimg.com/150/150/people"
+              },
+              {
+                "id": 2,
+                "usuario": "Bob",
+                "contenido": "¡Felicidades por tu primera publicación!",
+                "fecha": "2024-04-11T10:10:00Z",
+                "imagen_perfil": "https://placeimg.com/150/150/people"
+              }
+            ],
+            "etiquetas": ["amigos", "familia", "diversión"]
+          },
+          {
+            "id": 2,
+            "titulo": "Mi segunda publicación",
+            "contenido": "¡Hola de nuevo! Esta es mi segunda publicación.",
+            "fecha": "2024-04-12T09:30:00Z",
+            "likes": 15,
+            "comentarios": [
+              {
+                "id": 1,
+                "usuario": "Charlie",
+                "contenido": "¡Qué interesante!",
+                "fecha": "2024-04-12T09:35:00Z",
+                "imagen_perfil": "https://placeimg.com/150/150/people"
+              },
+              {
+                "id": 2,
+                "usuario": "Dave",
+                "contenido": "¡Me encanta tu contenido!",
+                "fecha": "2024-04-12T09:40:00Z",
+                "imagen_perfil": "https://placeimg.com/150/150/people"
+              }
+            ],
+            "etiquetas": ["viajes", "fotografía", "naturaleza"]
+          }
+        ]
+      }
+    ]
+  }
+  

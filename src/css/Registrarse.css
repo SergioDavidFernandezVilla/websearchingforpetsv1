@@ -1,0 +1,119 @@
+.container_registrarse_page {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(176, 110, 169, 0.6039) 0%, rgba(213, 114, 203, 0.970517) 0.01%, rgba(216, 114, 206, 0.987965) 0.02%, rgba(218, 115, 208, 0.4455) 0.03%, rgba(163, 62, 153, 0.9207) 0.04%, rgba(201, 38, 185, 0.930166) 0.05%, rgba(254, 254, 254, 0.9207) 99.91%, rgba(212, 114, 202, 0.909113) 99.92%, rgba(216, 114, 206, 0.930166) 99.93%, rgba(216, 114, 206, 0.99) 99.94%, rgba(218, 115, 208, 0.99) 99.95%, rgba(218, 115, 208, 0.99) 99.96%, rgba(218, 115, 208, 0.8316) 99.97%, rgba(218, 115, 208, 0.81448) 99.98%);
+
+    & .form_registrarse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+
+        & .div_input_registrarse{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+            width: 100%;
+
+           & .input_registrarse_file_img {
+                width: 249px;
+                height: 46px;
+                border-radius: 30px;
+                color: black;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 13px;
+                border: none;
+                cursor: pointer;
+              
+                .img_input_registrarse {
+                  height: 100px;
+                }
+            }
+            
+            & .btn_input_registrarse_sin_foto{
+                border: none;
+                width: 249px;
+                height: 46px;
+                border-radius: 30px;
+                font-size: 24px;
+                color: black;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+            }
+
+            & .select_registrarse{
+                width: 543px;
+                height: 46px;
+                border-radius: 30px;
+                border:none;
+               
+                font-size: 18px;
+                font-weight: 900;
+                text-align: center;
+            }
+
+            & .select_registrarse:focus{
+                outline: none;
+            }
+
+            & .input_registrarse{
+                width: 543px;
+                height: 46px;
+                border-radius: 30px;
+                border: none;
+                padding-left: 15px;
+                font-size: 18px;
+            }
+
+            & .input_registrarse:focus{
+                outline: none;
+            }
+            
+        & .label_registrarse{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        }
+
+        .div_btn_registrarse{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 70px;
+
+            & .btn_registrarse{
+                cursor: pointer;
+                color:#fff;
+                font-weight: 700;
+                font-size: 24px;
+                width: 100%;
+                height: 100%;
+                background-color: var(--background-color3);
+                border:none;
+                border-radius: 14px;
+            }
+
+            & .btn_registrarse:hover{
+                transition: all 0.3s ease-in-out;
+                background-color: var(--background-color2);
+            }
+        }
+    }
+}
