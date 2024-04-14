@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import IniciarSessionPage from "./pages/IniciarSessionPage";
 import HomePage from "./pages/HomePage";
@@ -10,19 +10,18 @@ import AjustesPage from "./pages/AjustesPage";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<NotFound />} />
         <Route path="/veterinarias" element={<VeterinariasPage />} />
         <Route path="/comunidad" element={<ComunidadPage />} />
-
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/inicar-session" element={<IniciarSessionPage />} />
+        <Route path="/iniciar-session" element={<IniciarSessionPage />} />
         <Route path="/register" element={<RegistrarsePage />} />
         <Route path="/ajustes" element={<AjustesPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
