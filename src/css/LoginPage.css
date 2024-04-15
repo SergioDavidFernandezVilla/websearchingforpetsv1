@@ -1,13 +1,3 @@
-:root{
-    /* Frame 2 */
---width: 1280px;
---height: 832px;
---background-color1:#5358D0;
---background-color2:#454bf9;
---color1:#526BAB;
---color2:#FFFAFA;
-}
-
 .container_login_page{
     width: 100%;
     display: flex;
