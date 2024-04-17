@@ -17,6 +17,9 @@ import photopost2 from "../assets/img/photo_post2.jpg";
 import photopost3 from "../assets/img/photo_post3.jpg";
 import photopost4 from "../assets/img/photo_post4.jpg";
 
+//CSS
+import "../css/Home.css";
+
 const HomePage = () => {
   return (
     <>
