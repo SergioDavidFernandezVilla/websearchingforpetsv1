@@ -22,14 +22,14 @@ const ComunidadPage = () => {
           />
 
           <PostComunidadComponent
-            username="Juan Perez"
-            perfilUser={photoperfil1}
+            username="Un wey random"
+            perfilUser={photoperfil2}
             descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur accumsan, nunc nisl euismod nisl, eget consectetur accumsan nisl nisl euismod nisl"
           />
 
           <PostComunidadComponent
-            username="Juan Perez"
-            perfilUser={photoperfil1}
+            username="Gonzalez"
+            perfilUser={photoperfil3}
             descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur accumsan, nunc nisl euismod nisl, eget consectetur accumsan nisl nisl euismod nisl"
           />
         </div>

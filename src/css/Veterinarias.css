@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    background-image: url(/src/assets/img/img-fondo-home.png);
+   
 
     & .container_posts_veterinarias{
         margin-top: 20px;
