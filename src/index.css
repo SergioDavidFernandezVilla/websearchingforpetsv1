@@ -513,7 +513,7 @@ body {
         & .menu_despejable{
           top:-45%;
           max-width: 375px;
-          min-width: 361px;
+          min-width: 321px;
           
           & .menu_despejable_header{
             width: 100%;

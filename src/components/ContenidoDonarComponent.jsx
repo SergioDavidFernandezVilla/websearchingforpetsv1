@@ -5,7 +5,6 @@ const ContenidoDonarComponent = () => {
     <div className="contenido_donar">
       <h3 className="contenido_h3_donar">Metodo</h3>
       <select className="contenido_select_donar">
-        <option value="Efectivo">Efectivo</option>
         <option value="Tarjeta">Tarjeta</option>
       </select>
 
