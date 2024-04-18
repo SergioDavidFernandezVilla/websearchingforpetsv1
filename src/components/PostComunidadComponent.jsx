@@ -16,7 +16,9 @@ const PostComunidadComponent = ({ username, perfilUser, descripcion }) => {
           <h3 className="h3_post_user_comunidad">{username}</h3>
         </div>
 
-        <p className="p_post_user_comunidad">{descripcion}</p>
+        <div className="div_post_user_comunidad_descripcion">
+          <p className="p_post_user_comunidad">{descripcion}</p>
+        </div>
       </header>
 
       <article className="article_post_user_comunidad">

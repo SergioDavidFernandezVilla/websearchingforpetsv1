@@ -57,14 +57,20 @@
                     }
                 }
 
+                & .div_post_user_comunidad_descripcion{
+                    border-radius: 12px;
+                    background: var(--background-color4);
+                    height: 250px;
+                    max-width: 500px;
+                }
+
                 & .p_post_user_comunidad{
                     padding: 10px;
                    font-size: 16px;
                    text-align: start;
-                    height: 250px;
-                    max-width: 500px;
-                    border-radius: 12px;
-                    background: var(--background-color4);
+                    
+                   
+                    
                 }
             }
         }
