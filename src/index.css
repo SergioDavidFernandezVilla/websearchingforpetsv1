@@ -2286,6 +2286,7 @@ body {
   }
 }
 
+
 /*Tablets pequeñas o compactas: Entre 540 y 720 píxeles de ancho.*/
 @media screen and (min-width: 540px) and (max-width: 620px) {
 
@@ -3702,7 +3703,7 @@ body {
       grid-template-columns: repeat(2,1fr);
 
       & .post_user{
-        width: 480px;
+        width: 520px;
         height: 100%;
 
         & .section_post_user{
@@ -3710,7 +3711,7 @@ body {
             height: 100%;
 
             & .article_post_user{
-              width: 480px;
+              width: 520px;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -3742,13 +3743,13 @@ body {
       grid-template-columns: repeat(2,1fr);
       
       & .section_post_user_comunidad{
-        width: 480px;
+        width: 520px;
         
         & .header_post_user_comunidad{
           width: 100%;
 
           & .div_post_user_comunidad_descripcion{
-            width: 460px;
+            width: 500px;
             height: 100%;
 
             & .p_post_user_comunidad{
@@ -3762,7 +3763,7 @@ body {
           }
 
           & .article_post_user_comunidad{
-            width: 480px;
+            width: 520px;
 
             & .div_post_user_comunidad_links{
               width: 100%;
@@ -3792,7 +3793,7 @@ body {
       grid-template-columns: repeat(2,1fr);
 
       & .section_veterinarias_page{
-        width: 480px;
+        width: 520px;
         height:420px;
         
         
@@ -3802,7 +3803,7 @@ body {
         }
 
         & .article_veterinarias_page{
-          width: 480px;
+          width: 520px;
 
           & .link_veterinarias_page{
             width: 70px;
@@ -3828,19 +3829,19 @@ body {
    
 
       & .ajustes_page_div_opciones{
-        width: 480px;
+        width: 520px;
 
         & .ajustes_page_link{
-          width: 460px;
+          width: 500px;
           height: 60px;
         }
       }
 
       & .ajustes_page_div_opciones_menu{
-        width: 480px;
+        width: 520px;
 
         & .contenido_informacion{
-          width: 480px;
+          width: 520px;
 
           & .contenido_div_principal_informacion{
             display: flex;
