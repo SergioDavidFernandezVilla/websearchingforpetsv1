@@ -35,457 +35,455 @@ body {
 }
 
 
-/*Teléfonos inteligentes estándar: Entre 290 y 320 píxeles de ancho.*/
+/* RESPONSIVE */
 @media screen and (min-width: 290px) and (max-width: 320px) {
 
-  .header_hero{
-    background-color: var(--background-color-header);
-    height: 119px;
-    width: 100%;
-
-    & .header_nav{
-      height: 100%;
-
-      & .header_nav_link_container{
-        
-        & .header_nav_link{
-          height: 70px;
-          width: 70px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          & .header_nav_img{
-            height: 52px;
-            width: 52px;
-          }
-        }
-
-        & .menu_despejable{
-          top:-45%;
-          max-width: 320px;
-          min-width: 290px;
-          
-          & .menu_despejable_header{
-            width: 100%;
-
-            & .menu_despejable_img{
-              width: 100px;
-              height: 100px;
-            }
-          }
-        }
-      }
-
-      & .header_form{
-        width: 100%;
-
-        & .header_form_search{
-          width: 100%;
-
-          & .header_form_input{
-            width: 240px;
-          }
-        }
-      }
-    }
-  }
-
-  .container_home_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_users{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-
-      & .post_user{
-        width: 300px;
+    .header_hero{
+      background-color: var(--background-color-header);
+      height: 119px;
+      width: 100%;
+  
+      & .header_nav{
         height: 100%;
-
-        & .section_post_user{
-            width: 100%;
-            height: 100%;
-
-            & .article_post_user{
-              width: 300px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-                & .img_post_user{
-                    width: 270px;
-                    height: 260px;
-                }
-
-                & .article_div_post_user_links{
-                    
-                    & .link_post_user{
-                        width: 70px;
-                        height: 70px;
-                    }
-                }
-            }
-        }
-      }
-    }
-  }
-
-  .container_comunidad_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_comunidad{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-      
-      & .section_post_user_comunidad{
-        width: 300px;
-        
-        & .header_post_user_comunidad{
-          width: 100%;
-
-          & .div_post_user_comunidad_descripcion{
-            width: 290px;
-            height: 100%;
-
-            & .p_post_user_comunidad{
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 27px;
-            }
-          }
-
+  
+        & .header_nav_link_container{
           
-          }
-
-          & .article_post_user_comunidad{
-            width: 300px;
-            & .div_post_user_comunidad_links{
-              width: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-              & .link_post_user_comunidad{
-                width: 70px;
-                height: 70px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-            }
-          }
-        }
-      }
-  }
-
-  .container_veterinarias_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_veterinarias{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-
-      & .section_veterinarias_page{
-        width: 300px;
-        height:420px;
-        
-        
-        & .img_veterinarias_page{
-          width: 280px;
-          height: 290px;
-        }
-
-        & .article_veterinarias_page{
-          width: 290px;
-
-          & .link_veterinarias_page{
-            width: 70px;
+          & .header_nav_link{
             height: 70px;
+            width: 70px;
             display: flex;
             justify-content: center;
             align-items: center;
-          }
-        }
-      }
-    }
-  }
-
-  .container_ajustes_page{
-    width: 100%;
-    height: 100%;
-
-    & .ajustes_page{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-      justify-items: center;
-      align-items: center;
-   
-
-      & .ajustes_page_div_opciones{
-        width: 300px;
-
-        & .ajustes_page_link{
-          width: 280px;
-          height: 60px;
-        }
-      }
-
-      & .ajustes_page_div_opciones_menu{
-        width: 300px;
-
-        & .contenido_informacion{
-          width: 100%;
-
-          & .contenido_div_principal_informacion{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            & .contenido_div_informacion{
-              display: flex;
-              justify-content: space-evenly;
-              align-items: center;
-              gap: 10px;
-              flex-direction: column;
+  
+            & .header_nav_img{
+              height: 52px;
+              width: 52px;
             }
           }
-        }
-      }
-    }
-  }
-}
-
-/*Teléfonos inteligentes estándar: Entre 360 y 414 píxeles de ancho.*/
-@media screen and (min-width: 361px) and (max-width: 411px) {
-
-  .header_hero{
-    background-color: var(--background-color-header);
-    height: 119px;
-    width: 100%;
-
-    & .header_nav{
-      height: 100%;
-
-      & .header_nav_link_container{
-        
-        & .header_nav_link{
-          height: 70px;
-          width: 70px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          & .header_nav_img{
-            height: 52px;
-            width: 52px;
-          }
-        }
-
-        & .menu_despejable{
-          top:-45%;
-          max-width: 411px;
-          min-width: 361px;
-          
-          & .menu_despejable_header{
-            width: 100%;
-
-            & .menu_despejable_img{
-              width: 100px;
-              height: 100px;
-            }
-          }
-        }
-      }
-
-      & .header_form{
-        width: 100%;
-
-        & .header_form_search{
-          width: 100%;
-
-          & .header_form_input{
-            width: 270px;
-          }
-        }
-      }
-    }
-  }
-
-  .container_home_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_users{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-
-      & .post_user{
-        width: 380px;
-        height: 100%;
-
-        & .section_post_user{
-            width: 100%;
-            height: 100%;
-
-            & .article_post_user{
-              width: 380px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-                & .img_post_user{
-                    width: 300px;
-                    height: 260px;
-                }
-
-                & .article_div_post_user_links{
-                    
-                    & .link_post_user{
-                        width: 70px;
-                        height: 70px;
-                    }
-                }
-            }
-        }
-      }
-    }
-  }
-
-  .container_comunidad_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_comunidad{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-      
-      & .section_post_user_comunidad{
-        width: 380px;
-        
-        & .header_post_user_comunidad{
-          width: 100%;
-
-          & .div_post_user_comunidad_descripcion{
-            width: 380px;
-            height: 100%;
-
-            & .p_post_user_comunidad{
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 27px;
-            }
-          }
-
-          
-          }
-
-          & .article_post_user_comunidad{
-            width: 380px;
-
-            & .div_post_user_comunidad_links{
+  
+          & .menu_despejable{
+            top:-45%;
+            max-width: 320px;
+            min-width: 290px;
+            
+            & .menu_despejable_header{
               width: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-              & .link_post_user_comunidad{
-                width: 70px;
-                height: 70px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+  
+              & .menu_despejable_img{
+                width: 100px;
+                height: 100px;
               }
             }
           }
         }
+  
+        & .header_form{
+          width: 100%;
+  
+          & .header_form_search{
+            width: 100%;
+  
+            & .header_form_input{
+              width: 240px;
+            }
+          }
+        }
       }
-  }
-
-  .container_veterinarias_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_veterinarias{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-
-      & .section_veterinarias_page{
-        width: 380px;
-        height:420px;
-        
-        
-        & .img_veterinarias_page{
+    }
+  
+    .container_home_page{
+      width: 100%;
+      height: 100%;
+  
+      & .container_posts_users{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+  
+        & .post_user{
           width: 300px;
-          height: 290px;
-        }
-
-        & .article_veterinarias_page{
-          width: 380px;
-
-          & .link_veterinarias_page{
-            width: 70px;
-            height: 70px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+          height: 100%;
+  
+          & .section_post_user{
+              width: 100%;
+              height: 100%;
+  
+              & .article_post_user{
+                width: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+  
+                  & .img_post_user{
+                      width: 270px;
+                      height: 260px;
+                  }
+  
+                  & .article_div_post_user_links{
+                      
+                      & .link_post_user{
+                          width: 70px;
+                          height: 70px;
+                      }
+                  }
+              }
           }
         }
       }
     }
-  }
-
-  .container_ajustes_page{
-    width: 100%;
-    height: 100%;
-
-    & .ajustes_page{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-      justify-items: center;
-      align-items: center;
-   
-
-      & .ajustes_page_div_opciones{
-        width: 380px;
-
-        & .ajustes_page_link{
-          width: 330px;
-          height: 60px;
+  
+    .container_comunidad_page{
+      width: 100%;
+      height: 100%;
+  
+      & .container_posts_comunidad{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        & .section_post_user_comunidad{
+          width: 300px;
+          
+          & .header_post_user_comunidad{
+            width: 100%;
+  
+            & .div_post_user_comunidad_descripcion{
+              width: 290px;
+              height: 100%;
+  
+              & .p_post_user_comunidad{
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 27px;
+              }
+            }
+  
+            
+            }
+  
+            & .article_post_user_comunidad{
+              width: 300px;
+              & .div_post_user_comunidad_links{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+  
+                & .link_post_user_comunidad{
+                  width: 70px;
+                  height: 70px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+              }
+            }
+          }
         }
-      }
-
-      & .ajustes_page_div_opciones_menu{
-        width: 380px;
-
-        & .contenido_informacion{
-          width: 100%;
-
-          & .contenido_div_principal_informacion{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            & .contenido_div_informacion{
+    }
+  
+    .container_veterinarias_page{
+      width: 100%;
+      height: 100%;
+  
+      & .container_posts_veterinarias{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+  
+        & .section_veterinarias_page{
+          width: 300px;
+          height:420px;
+          
+          
+          & .img_veterinarias_page{
+            width: 280px;
+            height: 290px;
+          }
+  
+          & .article_veterinarias_page{
+            width: 290px;
+  
+            & .link_veterinarias_page{
+              width: 70px;
+              height: 70px;
               display: flex;
-              justify-content: space-evenly;
+              justify-content: center;
               align-items: center;
-              gap: 10px;
-              flex-direction: column;
             }
           }
         }
       }
     }
-  }
+  
+    .container_ajustes_page{
+      width: 100%;
+      height: 100%;
+  
+      & .ajustes_page{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+     
+  
+        & .ajustes_page_div_opciones{
+          width: 300px;
+  
+          & .ajustes_page_link{
+            width: 280px;
+            height: 60px;
+          }
+        }
+  
+        & .ajustes_page_div_opciones_menu{
+          width: 300px;
+  
+          & .contenido_informacion{
+            width: 100%;
+  
+            & .contenido_div_principal_informacion{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+  
+              & .contenido_div_informacion{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 10px;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+      }
+    }
 }
 
-/*Teléfonos inteligentes básicos: Entre 321 y 375 píxeles de ancho.*/
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media screen and (min-width: 321px) and (max-width: 345px) {
+
+    .header_hero{
+      background-color: var(--background-color-header);
+      height: 119px;
+      width: 100%;
+  
+      & .header_nav{
+        height: 100%;
+  
+        & .header_nav_link_container{
+          
+          & .header_nav_link{
+            height: 70px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            & .header_nav_img{
+              height: 52px;
+              width: 52px;
+            }
+          }
+  
+          & .menu_despejable{
+            top:-45%;
+            max-width: 345px;
+            min-width: 321px;
+            
+            & .menu_despejable_header{
+              width: 100%;
+  
+              & .menu_despejable_img{
+                width: 100px;
+                height: 100px;
+              }
+            }
+          }
+        }
+  
+        & .header_form{
+          width: 100%;
+  
+          & .header_form_search{
+            width: 100%;
+  
+            & .header_form_input{
+              width: 240px;
+            }
+          }
+        }
+      }
+    }
+  
+    .container_home_page{
+      width: 100%;
+      height: 100%;
+  
+      & .container_posts_users{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+  
+        & .post_user{
+          width: 335px;
+          height: 100%;
+  
+          & .section_post_user{
+              width: 100%;
+              height: 100%;
+  
+              & .article_post_user{
+                width: 335px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+  
+                  & .img_post_user{
+                      width: 290px;
+                      height: 260px;
+                  }
+  
+                  & .article_div_post_user_links{
+                      
+                      & .link_post_user{
+                          width: 70px;
+                          height: 70px;
+                      }
+                  }
+              }
+          }
+        }
+      }
+    }
+  
+    .container_comunidad_page{
+      width: 100%;
+      height: 100%;
+  
+      & .container_posts_comunidad{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        & .section_post_user_comunidad{
+          width: 335px;
+          
+          & .header_post_user_comunidad{
+            width: 100%;
+  
+            & .div_post_user_comunidad_descripcion{
+              width: 300px;
+              height: 100%;
+  
+              & .p_post_user_comunidad{
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 27px;
+              }
+            }
+  
+            
+            }
+  
+            & .article_post_user_comunidad{
+              width: 335px;
+  
+              & .div_post_user_comunidad_links{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+  
+                & .link_post_user_comunidad{
+                  width: 70px;
+                  height: 70px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+              }
+            }
+          }
+        }
+    }
+  
+    .container_veterinarias_page{
+      width: 100%;
+      height: 100%;
+  
+      & .container_posts_veterinarias{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+  
+        & .section_veterinarias_page{
+          width: 335px;
+          height:420px;
+          
+          
+          & .img_veterinarias_page{
+            width: 300px;
+            height: 290px;
+          }
+  
+          & .article_veterinarias_page{
+            width: 335px;
+  
+            & .link_veterinarias_page{
+              width: 70px;
+              height: 70px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+  
+    .container_ajustes_page{
+      width: 100%;
+      height: 100%;
+  
+      & .ajustes_page{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+     
+  
+        & .ajustes_page_div_opciones{
+          width: 335px;
+  
+          & .ajustes_page_link{
+            width: 300px;
+            height: 60px;
+          }
+        }
+  
+        & .ajustes_page_div_opciones_menu{
+          width: 335px;
+  
+          & .contenido_informacion{
+            width: 100%;
+  
+            & .contenido_div_principal_informacion{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+  
+              & .contenido_div_informacion{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 10px;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
+@media screen and (min-width: 346px) and (max-width: 365px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -512,8 +510,8 @@ body {
 
         & .menu_despejable{
           top:-45%;
-          max-width: 375px;
-          min-width: 321px;
+          max-width: 356px;
+          min-width: 346px;
           
           & .menu_despejable_header{
             width: 100%;
@@ -709,8 +707,8 @@ body {
   }
 }
 
-/*Teléfonos inteligentes de gama alta y phablets: Entre 412 y 480 píxeles de ancho.*/
-@media screen and (min-width: 412px) and (max-width: 480px) {
+  
+@media screen and (min-width: 366px) and (max-width: 375px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -737,8 +735,456 @@ body {
 
         & .menu_despejable{
           top:-45%;
-          max-width: 480px;
-          min-width: 412px;
+          max-width: 375px;
+          min-width: 366px;
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 358px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 358px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 358px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 348px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 358px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 358px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 358px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 358px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 358px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 390px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 390px;
+          min-width: 371px;
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 370px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 370px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 370px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 350px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 370px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 370px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 370px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 370px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+ 
+@media screen and (min-width: 391px) and (max-width: 411px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 391px;
+          min-width: 411px;
           
           & .menu_despejable_header{
             width: 100%;
@@ -820,7 +1266,7 @@ body {
           width: 100%;
 
           & .div_post_user_comunidad_descripcion{
-            width: 380px;
+            width: 360px;
             height: 100%;
 
             & .p_post_user_comunidad{
@@ -934,8 +1380,462 @@ body {
   }
 }
 
+@media screen and (min-width: 412px) and (max-width: 420px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+         max-width: 415px;
+          min-width: 412px;
+         
+
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 380px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 380px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 380px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 380px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 380px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 380px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 380px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:415px) and (max-width:480px){
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+         max-width: 480px;
+          min-width: 412px;
+          width: 430px;
+         
+
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 380px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 380px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 380px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 380px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 380px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 380px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 380px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
 /*Tablets pequeñas o compactas: Entre 540 y 720 píxeles de ancho.*/
-@media screen and (min-width: 540px) and (max-width: 720px) {
+@media screen and (min-width: 540px) and (max-width: 620px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -1386,7 +2286,7 @@ body {
 
 
 /*Tablets pequeñas o compactas: Entre 600 y 800 píxeles de ancho.*/
-@media screen and (min-width: 600px) and (max-width: 819px) {
+@media screen and (min-width: 621px) and (max-width: 819px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -1447,7 +2347,7 @@ body {
 
     & .container_posts_users{
       display: grid;
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: repeat(1,1fr);
 
       & .post_user{
         width: 580px;
@@ -1837,7 +2737,7 @@ body {
 
 
 /*Tablets estándar: Entre 820 y 1024 píxeles de ancho.*/
-@media screen and (min-width: 820) and (max-width: 1024px) {
+@media screen and (min-width: 820px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -1898,7 +2798,7 @@ body {
 
     & .container_posts_users{
       display: grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(2,1fr);
 
       & .post_user{
         width: 380px;
@@ -1938,7 +2838,7 @@ body {
 
     & .container_posts_comunidad{
       display: grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(2,1fr);
       
       & .section_post_user_comunidad{
         width: 380px;
@@ -1947,7 +2847,7 @@ body {
           width: 100%;
 
           & .div_post_user_comunidad_descripcion{
-            width: 380px;
+            width: 360px;
             height: 100%;
 
             & .p_post_user_comunidad{
@@ -1962,7 +2862,6 @@ body {
 
           & .article_post_user_comunidad{
             width: 380px;
-
             & .div_post_user_comunidad_links{
               width: 100%;
               display: flex;
@@ -1988,7 +2887,7 @@ body {
 
     & .container_posts_veterinarias{
       display: grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(2,1fr);
 
       & .section_veterinarias_page{
         width: 380px;
@@ -2021,7 +2920,7 @@ body {
 
     & .ajustes_page{
       display: grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(2,1fr);
       justify-items: center;
       align-items: center;
    
@@ -2030,7 +2929,7 @@ body {
         width: 380px;
 
         & .ajustes_page_link{
-          width: 330px;
+          width: 360px;
           height: 60px;
         }
       }
@@ -2286,454 +3185,8 @@ body {
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .header_hero{
-    background-color: var(--background-color-header);
-    height: 119px;
-    width: 100%;
-
-    & .header_nav{
-      height: 100%;
-
-      & .header_nav_link_container{
-        
-        & .header_nav_link{
-          height: 70px;
-          width: 70px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          & .header_nav_img{
-            height: 52px;
-            width: 52px;
-          }
-        }
-
-        & .menu_despejable{
-          top:-45%;
-          max-width: 480px;
-          min-width: 412px;
-          
-          & .menu_despejable_header{
-            width: 100%;
-
-            & .menu_despejable_img{
-              width: 100px;
-              height: 100px;
-            }
-          }
-        }
-      }
-
-      & .header_form{
-        width: 100%;
-
-        & .header_form_search{
-          width: 100%;
-
-          & .header_form_input{
-            width: 270px;
-          }
-        }
-      }
-    }
-  }
-
-  .container_home_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_users{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-
-      & .post_user{
-        width: 480px;
-        height: 100%;
-
-        & .section_post_user{
-            width: 100%;
-            height: 100%;
-
-            & .article_post_user{
-              width: 400px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-                & .img_post_user{
-                    width: 400px;
-                    height: 260px;
-                }
-
-                & .article_div_post_user_links{
-                    
-                    & .link_post_user{
-                        width: 70px;
-                        height: 70px;
-                    }
-                }
-            }
-        }
-      }
-    }
-  }
-
-  .container_comunidad_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_comunidad{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      
-      & .section_post_user_comunidad{
-        width: 480px;
-        
-        & .header_post_user_comunidad{
-          width: 100%;
-
-          & .div_post_user_comunidad_descripcion{
-            width: 460px;
-            height: 100%;
-
-            & .p_post_user_comunidad{
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 27px;
-            }
-          }
-
-          
-          }
-
-          & .article_post_user_comunidad{
-            width: 480px;
-
-            & .div_post_user_comunidad_links{
-              width: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-              & .link_post_user_comunidad{
-                width: 70px;
-                height: 70px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-            }
-          }
-        }
-      }
-  }
-
-  .container_veterinarias_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_veterinarias{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-
-      & .section_veterinarias_page{
-        width: 480px;
-        height:420px;
-        
-        
-        & .img_veterinarias_page{
-          width: 400px;
-          height: 290px;
-        }
-
-        & .article_veterinarias_page{
-          width: 480px;
-
-          & .link_veterinarias_page{
-            width: 70px;
-            height: 70px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-        }
-      }
-    }
-  }
-
-  .container_ajustes_page{
-    width: 100%;
-    height: 100%;
-
-    & .ajustes_page{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      justify-items: center;
-      align-items: center;
-   
-
-      & .ajustes_page_div_opciones{
-        width: 480px;
-
-        & .ajustes_page_link{
-          width: 400px;
-          height: 60px;
-        }
-      }
-
-      & .ajustes_page_div_opciones_menu{
-        width: 480px;
-
-        & .contenido_informacion{
-          width: 100%;
-
-          & .contenido_div_principal_informacion{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            & .contenido_div_informacion{
-              display: flex;
-              justify-content: space-evenly;
-              align-items: center;
-              gap: 10px;
-              flex-direction: column;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1024px) {
-  .header_hero{
-    background-color: var(--background-color-header);
-    height: 119px;
-    width: 100%;
-
-    & .header_nav{
-      height: 100%;
-
-      & .header_nav_link_container{
-        
-        & .header_nav_link{
-          height: 70px;
-          width: 70px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          & .header_nav_img{
-            height: 52px;
-            width: 52px;
-          }
-        }
-
-        & .menu_despejable{
-          top:-45%;
-          max-width: 480px;
-          min-width: 412px;
-          
-          & .menu_despejable_header{
-            width: 100%;
-
-            & .menu_despejable_img{
-              width: 100px;
-              height: 100px;
-            }
-          }
-        }
-      }
-
-      & .header_form{
-        width: 100%;
-
-        & .header_form_search{
-          width: 100%;
-
-          & .header_form_input{
-            width: 270px;
-          }
-        }
-      }
-    }
-  }
-
-  .container_home_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_users{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-
-      & .post_user{
-        width: 480px;
-        height: 100%;
-
-        & .section_post_user{
-            width: 100%;
-            height: 100%;
-
-            & .article_post_user{
-              width: 400px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-                & .img_post_user{
-                    width: 400px;
-                    height: 260px;
-                }
-
-                & .article_div_post_user_links{
-                    
-                    & .link_post_user{
-                        width: 70px;
-                        height: 70px;
-                    }
-                }
-            }
-        }
-      }
-    }
-  }
-
-  .container_comunidad_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_comunidad{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      
-      & .section_post_user_comunidad{
-        width: 480px;
-        
-        & .header_post_user_comunidad{
-          width: 100%;
-
-          & .div_post_user_comunidad_descripcion{
-            width: 460px;
-            height: 100%;
-
-            & .p_post_user_comunidad{
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 27px;
-            }
-          }
-
-          
-          }
-
-          & .article_post_user_comunidad{
-            width: 480px;
-
-            & .div_post_user_comunidad_links{
-              width: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-
-              & .link_post_user_comunidad{
-                width: 70px;
-                height: 70px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-            }
-          }
-        }
-      }
-  }
-
-  .container_veterinarias_page{
-    width: 100%;
-    height: 100%;
-
-    & .container_posts_veterinarias{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-
-      & .section_veterinarias_page{
-        width: 480px;
-        height:420px;
-        
-        
-        & .img_veterinarias_page{
-          width: 400px;
-          height: 290px;
-        }
-
-        & .article_veterinarias_page{
-          width: 480px;
-
-          & .link_veterinarias_page{
-            width: 70px;
-            height: 70px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-        }
-      }
-    }
-  }
-
-  .container_ajustes_page{
-    width: 100%;
-    height: 100%;
-
-    & .ajustes_page{
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      justify-items: center;
-      align-items: center;
-   
-
-      & .ajustes_page_div_opciones{
-        width: 480px;
-
-        & .ajustes_page_link{
-          width: 400px;
-          height: 60px;
-        }
-      }
-
-      & .ajustes_page_div_opciones_menu{
-        width: 480px;
-
-        & .contenido_informacion{
-          width: 100%;
-
-          & .contenido_div_principal_informacion{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            & .contenido_div_informacion{
-              display: flex;
-              justify-content: space-evenly;
-              align-items: center;
-              gap: 10px;
-              flex-direction: column;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 /*Tablets grandes o de alta gama: Entre 1024 y 1600 píxeles de ancho.*/
-@media screen and (min-width: 1025px) and (max-width: 1600px) {
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -2797,7 +3250,7 @@ body {
       grid-template-columns: repeat(2,1fr);
 
       & .post_user{
-        width: 520px;
+        width: 480px;
         height: 100%;
 
         & .section_post_user{
@@ -2805,7 +3258,7 @@ body {
             height: 100%;
 
             & .article_post_user{
-              width: 520px;
+              width: 480px;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -2837,13 +3290,13 @@ body {
       grid-template-columns: repeat(2,1fr);
       
       & .section_post_user_comunidad{
-        width: 380px;
+        width: 480px;
         
         & .header_post_user_comunidad{
           width: 100%;
 
           & .div_post_user_comunidad_descripcion{
-            width: 380px;
+            width: 460px;
             height: 100%;
 
             & .p_post_user_comunidad{
@@ -2857,7 +3310,7 @@ body {
           }
 
           & .article_post_user_comunidad{
-            width: 380px;
+            width: 480px;
 
             & .div_post_user_comunidad_links{
               width: 100%;
@@ -2887,7 +3340,7 @@ body {
       grid-template-columns: repeat(2,1fr);
 
       & .section_veterinarias_page{
-        width: 520px;
+        width: 480px;
         height:420px;
         
         
@@ -2897,7 +3350,7 @@ body {
         }
 
         & .article_veterinarias_page{
-          width: 380px;
+          width: 480px;
 
           & .link_veterinarias_page{
             width: 70px;
@@ -2923,19 +3376,19 @@ body {
    
 
       & .ajustes_page_div_opciones{
-        width: 520px;
+        width: 480px;
 
         & .ajustes_page_link{
-          width: 400px;
+          width: 460px;
           height: 60px;
         }
       }
 
       & .ajustes_page_div_opciones_menu{
-        width: 520px;
+        width: 480px;
 
         & .contenido_informacion{
-          width: 520px;
+          width: 480px;
 
           & .contenido_div_principal_informacion{
             display: flex;
@@ -2955,4 +3408,5 @@ body {
       }
     }
   }
+
 }
