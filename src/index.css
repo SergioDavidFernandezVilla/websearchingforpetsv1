@@ -612,7 +612,7 @@ body {
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 345px) {
+@media screen and (min-width: 321px) and (max-width: 326px) {
 
     .header_hero{
       background-color: var(--background-color-header);
@@ -639,7 +639,7 @@ body {
   
           & .menu_despejable{
             top:-45%;
-            max-width: 345px;
+            max-width: 326px;
             min-width: 321px;
             
             & .menu_despejable_header{
@@ -900,7 +900,7 @@ body {
     }
 }
 
-@media screen and (min-width: 346px) and (max-width: 360px) {
+@media screen and (min-width: 327x) and (max-width: 334px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -927,8 +927,8 @@ body {
 
         & .menu_despejable{
           top:-45%;
-          max-width: 360px;
-          min-width: 346px;
+          max-width: 344px;
+          min-width: 327px;
           
           & .menu_despejable_header{
             width: 100%;
@@ -1188,8 +1188,7 @@ body {
   }
 }
 
-  
-@media screen and (min-width: 361px) and (max-width: 375px) {
+@media screen and (min-width: 335px) and (max-width: 340px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -1216,7 +1215,583 @@ body {
 
         & .menu_despejable{
           top:-45%;
-          max-width: 375px;
+          max-width: 340px;
+          min-width: 335px;
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 358px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 358px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 358px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 348px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 358px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 358px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 358px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 358px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 358px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 358px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 338px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 358px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (min-width: 341px) and (max-width: 360px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 360px;
+          min-width: 341px;
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 338px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 338px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 338px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 318px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 338px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 338px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 338px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 338px;
+
+        & .ajustes_page_link{
+          width: 318px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 338px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 358px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 338px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 358px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+  
+@media screen and (min-width: 361px) and (max-width: 365px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 365px;
           min-width: 361px;
           
           & .menu_despejable_header{
@@ -1477,7 +2052,7 @@ body {
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 390px) {
+@media screen and (min-width: 366px) and (max-width: 368px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -1504,8 +2079,872 @@ body {
 
         & .menu_despejable{
           top:-45%;
-          max-width: 390px;
-          min-width: 376px;
+          max-width: 368px;
+          min-width: 366px;
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 358px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 358px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 358px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 348px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 358px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 358px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 358px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 358px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 358px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 358px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 338px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 358px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (min-width: 371px) and (max-width: 376px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 375px;
+          min-width: 371px;
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 358px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 370px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 370px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 350px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 370px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 370px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 370px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 370px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 380px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 380px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (min-width: 377px) and (max-width: 380px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 380px;
+          min-width: 377px;
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 350px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 370px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 370px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 350px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 370px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 370px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 370px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 370px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 380px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 380px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width: 384px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 384px;
+          min-width: 381px;
           
           & .menu_despejable_header{
             width: 100%;
@@ -1764,8 +3203,8 @@ body {
       }
   }
 }
- 
-@media screen and (min-width: 391px) and (max-width: 393px) {
+
+@media screen and (min-width: 385px) and (max-width: 393px) {
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -1792,8 +3231,8 @@ body {
 
         & .menu_despejable{
           top:-45%;
-          max-width: 393px;
-          min-width: 391px;
+          max-width: 390px;
+          min-width: 383px;
           
           & .menu_despejable_header{
             width: 100%;
@@ -1829,7 +3268,7 @@ body {
       grid-template-columns: repeat(1,1fr);
 
       & .post_user{
-        width: 380px;
+        width: 370px;
         height: 100%;
 
         & .section_post_user{
@@ -1837,7 +3276,7 @@ body {
             height: 100%;
 
             & .article_post_user{
-              width: 380px;
+              width: 370px;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -1869,13 +3308,13 @@ body {
       grid-template-columns: repeat(1,1fr);
       
       & .section_post_user_comunidad{
-        width: 380px;
+        width: 370px;
         
         & .header_post_user_comunidad{
           width: 100%;
 
           & .div_post_user_comunidad_descripcion{
-            width: 360px;
+            width: 350px;
             height: 100%;
 
             & .p_post_user_comunidad{
@@ -1919,7 +3358,7 @@ body {
       grid-template-columns: repeat(1,1fr);
 
       & .section_veterinarias_page{
-        width: 380px;
+        width: 370px;
         height:420px;
         
         
@@ -1929,7 +3368,7 @@ body {
         }
 
         & .article_veterinarias_page{
-          width: 380px;
+          width: 370px;
 
           & .link_veterinarias_page{
             width: 70px;
@@ -1955,7 +3394,7 @@ body {
    
 
       & .ajustes_page_div_opciones{
-        width: 380px;
+        width: 370px;
 
         & .ajustes_page_link{
           width: 330px;
@@ -1964,7 +3403,7 @@ body {
       }
 
       & .ajustes_page_div_opciones_menu{
-        width: 380px;
+        width: 370px;
 
         & .contenido_informacion{
           width: 100%;
@@ -2341,7 +3780,6 @@ body {
   }
 }
 
-
 @media screen and (min-width: 397px) and (max-width: 403px) {
 
   .header_hero{
@@ -2373,6 +3811,294 @@ body {
           min-width: 397px;
          
 
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 380px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 380px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 380px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 380px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 380px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 380px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 380px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 380px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 380px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 393px) {
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+          max-width: 393px;
+          min-width: 391px;
           
           & .menu_despejable_header{
             width: 100%;
@@ -3794,7 +5520,589 @@ body {
   }
 }
 
-@media screen and (min-width:421px) and (max-width:435px){
+@media screen and (min-width:421px) and (max-width:425px){
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+         max-width: 425px;
+          min-width: 421px;
+          width: 430px;
+         
+
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 380px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 380px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 380px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 380px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 380px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 380px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 380px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 380px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 380px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (min-width:426px) and (max-width:431px){
+
+  .header_hero{
+    background-color: var(--background-color-header);
+    height: 119px;
+    width: 100%;
+
+    & .header_nav{
+      height: 100%;
+
+      & .header_nav_link_container{
+        
+        & .header_nav_link{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          & .header_nav_img{
+            height: 52px;
+            width: 52px;
+          }
+        }
+
+        & .menu_despejable{
+          top:-45%;
+         max-width: 432px;
+          min-width: 426px;
+          width: 430px;
+         
+
+          
+          & .menu_despejable_header{
+            width: 100%;
+
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      & .header_form{
+        width: 100%;
+
+        & .header_form_search{
+          width: 100%;
+
+          & .header_form_input{
+            width: 270px;
+          }
+        }
+      }
+    }
+  }
+
+  .container_home_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_users{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .post_user{
+        width: 380px;
+        height: 100%;
+
+        & .section_post_user{
+            width: 100%;
+            height: 100%;
+
+            & .article_post_user{
+              width: 380px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+                & .img_post_user{
+                    width: 300px;
+                    height: 260px;
+                }
+
+                & .article_div_post_user_links{
+                    
+                    & .link_post_user{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+
+  .container_comunidad_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_comunidad{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_comunidad{
+        width: 380px;
+        
+        & .header_post_user_comunidad{
+          width: 100%;
+
+          & .div_post_user_comunidad_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_comunidad{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_comunidad{
+            width: 380px;
+
+            & .div_post_user_comunidad_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_comunidad{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  .container_veterinarias_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_veterinarias{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      & .section_veterinarias_page{
+        width: 380px;
+        height:420px;
+        
+        
+        & .img_veterinarias_page{
+          width: 300px;
+          height: 290px;
+        }
+
+        & .article_veterinarias_page{
+          width: 380px;
+
+          & .link_veterinarias_page{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+  .container_ajustes_page{
+    width: 100%;
+    height: 100%;
+
+    & .ajustes_page{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      align-items: center;
+   
+
+      & .ajustes_page_div_opciones{
+        width: 380px;
+
+        & .ajustes_page_link{
+          width: 330px;
+          height: 60px;
+        }
+      }
+
+      & .ajustes_page_div_opciones_menu{
+        width: 380px;
+
+        & .contenido_informacion{
+          width: 100%;
+
+          & .contenido_div_principal_informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .contenido_div_informacion{
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              gap: 10px;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_voluntarios_page{
+    width: 100%;
+    height: 100%;
+
+    & .container_posts_voluntarios{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+      & .section_post_user_voluntarios{
+        width: 380px;
+        
+        & .header_post_user_voluntarios{
+          width: 100%;
+
+          & .div_post_user_voluntarios{
+
+            & .h3_post_user_voluntarios{
+              font-size: 26px;
+              font-weight: 700;
+          }
+
+          & .img_perfil_post_user_voluntarios{
+              width: 100px;
+              height: 100px;
+              border-radius: 60%;
+          }
+          }
+
+          & .div_post_user_voluntarios_descripcion{
+            width: 360px;
+            height: 100%;
+
+            & .p_post_user_voluntarios{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            }
+          }
+
+          
+          }
+
+          & .article_post_user_voluntarios{
+            width: 380px;
+
+            & .div_post_user_voluntarios_links{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & .link_post_user_voluntarios{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+@media screen and (min-width:432px) and (max-width:435px){
 
   .header_hero{
     background-color: var(--background-color-header);
@@ -3822,7 +6130,7 @@ body {
         & .menu_despejable{
           top:-45%;
          max-width: 435px;
-          min-width: 421px;
+          min-width: 432px;
           width: 430px;
          
 
