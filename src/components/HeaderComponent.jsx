@@ -109,7 +109,7 @@ const HeaderComponent = () => {
                 </li>
 
                 <li className="menu_despejable_li">
-                  <Link className="menu_despejable_li_link">
+                  <Link className="menu_despejable_li_link" to="/urgencias">
                     <p className="menu_despejable_li_p">
                       <strong className="menu_despejable_li_strong">
                         URGENCIAS

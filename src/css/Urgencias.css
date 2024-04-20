@@ -1,0 +1,116 @@
+.container_urgencias_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/img_background2.jpg");
+  
+    & .container_posts_urgencias{
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+  
+      & .link_detalle_post_urgencias{
+        text-decoration: none;
+
+        & .post_user_urgencias{
+          max-width: 600px;
+          max-height: 600px;
+          border-radius: 8px;
+          background-color: var(--background-color6);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          & .section_post_user_urgencias{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 10px;
+            flex-direction:column;
+      
+            & .header_post_user_urgencias{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: 20px;
+      
+              & .div_post_user_urgencias{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 20px;
+      
+                
+              & .img_perfil_post_user_urgencias{
+                width: 80px;
+                height: 80px;
+                border-radius: 60%;
+              }
+      
+              & .h3_post_user_urgencias{
+                font-size: 24px;
+                color:#fff;
+              }
+              }
+            }
+      
+            & .article_post_user_urgencias{
+              display: flex;
+              flex-direction: column;
+              gap: 16px;
+      
+              & .img_post_user_urgencias{
+                width: 400px;
+                height: 300px;
+                border-radius: 20px;
+            
+              }
+      
+              & .article_div_post_user_links_urgencias{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+      
+                & .link_post_user_urgencias{
+                  width: 172px;
+                  height: 48px;
+                  color:black;
+                  font-weight: 800;
+                  font-style: italic;
+                  font-size: 25px;
+                  text-decoration: none;
+                  background-color: #fff;
+                  border-radius: 15px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+      
+                & .link_post_user_urgencias:hover{
+                  transition: all 0.3s ease-in-out;
+                  cursor: pointer;
+                  background-color: rgb(204, 204, 204);
+                }
+              }
+            }
+          }
+        }
+      }
+
+  }
+  
+}
