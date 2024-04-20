@@ -1,4 +1,4 @@
-.container_comunidad_page{
+.container_voluntarios_page{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     height: 100%;
     background-image: url("/src/assets/img/img_background2.jpg");
 
-    & .container_posts_comunidad{
+    & .container_posts_voluntarios{
         margin-top: 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -17,7 +17,7 @@
         align-items: center;
         gap: 25px;
 
-        & .section_post_user_comunidad{
+        & .section_post_user_voluntarios{
             background-color:aliceblue;
             width: 534px;
             height: 576px;
@@ -30,7 +30,7 @@
             background-image: url("/src/assets/img/img-fondo-postuser.png");
             background-repeat: round;
 
-            & .header_post_user_comunidad{
+            & .header_post_user_voluntarios{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -39,33 +39,33 @@
                 margin-top: 20px;
                 height: 100%;
 
-                & .div_post_user_comunidad{
+                & .div_post_user_voluntarios{
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     gap: 15px;
                     flex-direction: row;
 
-                    & .h3_post_user_comunidad{
+                    & .h3_post_user_voluntarios{
                         font-size: 26px;
                         font-weight: 700;
                     }
 
-                    & .img_perfil_post_user_comunidad{
+                    & .img_perfil_post_user_voluntarios{
                         width: 100px;
                         height: 100px;
                         border-radius: 60%;
                     }
                 }
 
-                & .div_post_user_comunidad_descripcion{
+                & .div_post_user_voluntarios_descripcion{
                     border-radius: 12px;
                     background: var(--background-color4);
                     height: 250px;
                     max-width: 500px;
                 }
 
-                & .p_post_user_comunidad{
+                & .p_post_user_voluntarios{
                     padding: 10px;
                    font-size: 16px;
                    text-align: start;
@@ -76,7 +76,7 @@
             }
         }
 
-        & .article_post_user_comunidad{
+        & .article_post_user_voluntarios{
             width: 534px;
                 display: flex;
                 justify-content: center;
@@ -85,26 +85,26 @@
                 gap: 30px;
                 padding: 20px;
 
-                & .div_post_user_comunidad_links{
+                & .div_post_user_voluntarios_links{
                     display: flex;
                     flex-direction: row;
                     gap: 30px;
 
-                    & .link_post_user_comunidad{
+                    & .link_post_user_voluntarios{
                     width: 80px;
                     height: 80px;
                     background-color: var(--background-color5);
                     border-radius: 19px;
                     cursor: pointer;
 
-                    & .img_post_user_comunidad{
+                    & .img_post_user_voluntarios{
                         width: 80px;
                         height: 80px;
                     }
     
                     }
 
-                    & .link_post_user_comunidad:hover{
+                    & .link_post_user_voluntarios:hover{
                         transition: all 0.3s ease-in-out;
                         background-color: var(--background-color2);
                     }

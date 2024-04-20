@@ -4,6 +4,7 @@ import IniciarSessionPage from "./pages/IniciarSessionPage";
 import HomePage from "./pages/HomePage";
 import RegistrarsePage from "./pages/RegistrarsePage";
 import VeterinariasPage from "./pages/VeterinariasPage";
+import VoluntariosPage from "./pages/VoluntariosPage";
 import ComunidadPage from "./pages/ComunidadPage";
 import NotFound from "./pages/NotFound";
 import AjustesPage from "./pages/AjustesPage";
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/veterinarias" element={<VeterinariasPage />} />
+        <Route path="/voluntarios" element={<VoluntariosPage />} />
         <Route path="/comunidad" element={<ComunidadPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/iniciar-session" element={<IniciarSessionPage />} />
