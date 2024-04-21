@@ -687,7 +687,7 @@ body {
           width: 100%;
   
           & .div_post_user_comunidad_descripcion{
-            max-width: 635px;
+            max-width: 605px;
             width: calc(85vw - 20px);
             height: 100%;
   
@@ -733,14 +733,14 @@ body {
   
       & .section_veterinarias_page{
         max-width: 655px;
-        width: calc(80vw - 20px);
+        width: calc(90vw - 20px);
         
         
         
         & .img_veterinarias_page{
-          max-width: 655px;
-          width: calc(60vw - 20px);
-          height: auto;
+          max-width: 605px;
+          width: calc(80vw - 20px);
+          
         }
   
         & .article_veterinarias_page{
@@ -771,10 +771,10 @@ body {
   
       & .ajustes_page_div_opciones{
         max-width: 655px;
-        width: calc(80vw - 20px);
+        width: calc(90vw - 20px);
   
         & .ajustes_page_link{
-          max-width: 635px;
+          max-width: 605px;
           width: calc(75vw - 20px);
           height: 60px;
         }
@@ -782,7 +782,7 @@ body {
   
       & .ajustes_page_div_opciones_menu{
         max-width: 655px;
-        width: calc(80vw - 20px);
+        width: calc(90vw - 20px);
   
         & .contenido_informacion{
           width: 100vw;
@@ -1217,8 +1217,8 @@ body {
                 & .article_div_post_user_links{
                     
                     & .link_post_user{
-                      width: 70px;
-                      width: 70px;
+                      width: 80px;
+                      height: 80px;
                     }
                 }
             }
@@ -1293,7 +1293,8 @@ body {
         
         
         & .img_veterinarias_page{
-          width: calc(50vw - 20px);
+          max-width: 620px;
+          width: calc(65vw - 20px);
          
         }
   
@@ -1328,6 +1329,7 @@ body {
         width: calc(80vw - 20px);
   
         & .ajustes_page_link{
+          max-width: 650px;
           width: calc(75vw - 20px);
           height: 60px;
         }
@@ -1389,6 +1391,7 @@ body {
           }
   
           & .div_post_user_voluntarios_descripcion{
+            max-width: 650px;
             width: calc(75vw - 20px);
             height: 100%;
   
@@ -1842,12 +1845,13 @@ body {
       grid-template-columns: repeat(1,1fr);
   
       & .section_veterinarias_page{
-        width: calc(60vw - 20px);
+        width: calc(80vw - 20px);
         max-width: 700px;
         
         
         & .img_veterinarias_page{
-          max-width: 50vw;
+          max-width: 605px;
+          width: calc(50vw - 20px);
         }
   
         & .article_veterinarias_page{
@@ -2402,7 +2406,7 @@ body {
         
         
         & .img_veterinarias_page{
-          max-width: 450px;
+          max-width: 550px;
           width: calc(45vw - 20px);
           
         }
@@ -2476,8 +2480,8 @@ body {
       grid-template-columns: repeat(2,1fr);
       
       & .section_post_user_voluntarios{
-        width: calc(50vw - 20px);
         max-width: 600px;
+        width: calc(49vw - 20px);
         
         & .header_post_user_voluntarios{
           width: 100%;
@@ -2497,8 +2501,8 @@ body {
           }
   
           & .div_post_user_voluntarios_descripcion{
-            width: calc(45vw - 20px);
-            max-width: 600px;
+            max-width: 550px;
+        width: calc(49vw - 20px);
             height: 100%;
   
             & .p_post_user_voluntarios{
