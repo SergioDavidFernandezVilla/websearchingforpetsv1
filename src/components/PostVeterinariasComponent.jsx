@@ -7,7 +7,7 @@ const PostVeterinariasComponent = ({
   imgALT,
 }) => {
   return (
-    <section className="section_veterinarias_page">
+    <div className="section_veterinarias_page">
       <img className="img_veterinarias_page" src={imgURL} alt={imgALT} />
 
       <article className="article_veterinarias_page">
@@ -18,7 +18,7 @@ const PostVeterinariasComponent = ({
           <img className="img_info_veterinarias_page" src={imgCOMPARTIR} />
         </Link>
       </article>
-    </section>
+    </div>
   );
 };
 
