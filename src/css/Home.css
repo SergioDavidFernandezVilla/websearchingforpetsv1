@@ -18,7 +18,7 @@
       gap: 25px;
   
     & .post_user{
-      max-width: 600px;
+      width: 600px;
       height: 600px;
       border-radius: 8px;
       background-color: azure;
