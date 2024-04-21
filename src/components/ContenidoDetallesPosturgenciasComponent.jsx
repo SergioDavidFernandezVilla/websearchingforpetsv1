@@ -21,14 +21,12 @@ const ContenidoDetallesPosturgenciasComponent = ({
             </Link>
           </div>
           <header className="header_post_detalles">
-            <div className="div_perfil_detalle_urgencia">
-              <img
-                className="img_detalles_perfil"
-                src={imgPerfil}
-                alt="Imagen de perfil"
-              />
-              <p className="p_useranme_detalles">{username}</p>
-            </div>
+            <img
+              className="img_detalles_perfil"
+              src={imgPerfil}
+              alt="Imagen de perfil"
+            />
+            <p className="p_useranme_detalles">{username}</p>
           </header>
 
           <h3 className="h3_titulo_detalles">{Titulo}</h3>

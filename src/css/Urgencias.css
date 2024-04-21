@@ -21,8 +21,8 @@
         text-decoration: none;
 
         & .post_user_urgencias{
-          max-width: 600px;
-          max-height: 600px;
+          width: 500px;
+          height: 500px;
           border-radius: 8px;
           background-color: var(--background-color6);
           display: flex;

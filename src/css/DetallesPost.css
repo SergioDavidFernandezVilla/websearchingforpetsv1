@@ -6,7 +6,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 88vh;
+    height: 800px;
    
 
 
@@ -48,14 +48,6 @@
                 gap: 20px;
                 width: 100%;
 
-              
-
-                & .div_perfil_detalle_urgencia{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 20px;
-
                     & .img_detalles_perfil{
                         width: 100px;
                         height: 100px;
@@ -67,9 +59,6 @@
                         font-weight: 700;
                         color:#fff;
                     }
-                }
-    
-               
             }
     
             & .h3_titulo_detalles{
