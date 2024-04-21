@@ -23,7 +23,12 @@ const LoginPage = () => {
           <img className="login_page_img" src={logo} alt="logo" />
         </div>
 
-        <form className="login_page_form" onSubmit={handleLogin}>
+        <form
+          className="login_page_form"
+          onSubmit={handleLogin}
+          method="post"
+          netlify
+        >
           <input
             className="login_page_input"
             type="text"
