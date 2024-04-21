@@ -25,51 +25,49 @@ const HomePage = () => {
     <>
       <HeaderComponent></HeaderComponent>
 
-      <main>
-        <div className="container_home_page">
-          <div className="container_posts_users">
-            <PostUserComponent
-              perfilUser={photoperfil1}
-              username="Juan Luis Gonzalez"
-              imgPost={photopost1}
-              descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+      <div className="container_home_page">
+        <div className="container_posts_users">
+          <PostUserComponent
+            perfilUser={photoperfil1}
+            username="Juan Luis Gonzalez"
+            imgPost={photopost1}
+            descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
           repellendus aliquam voluptatum atque libero officiis aliquid qui
           ratione voluptate. Minima quae sit recusandae debitis eum aut totam id
           reiciendis facere?"
-            />
+          />
 
-            <PostUserComponent
-              perfilUser={photoperfil2}
-              username="Guadalupe Montoya"
-              imgPost={photopost2}
-              descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+          <PostUserComponent
+            perfilUser={photoperfil2}
+            username="Guadalupe Montoya"
+            imgPost={photopost2}
+            descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
           repellendus aliquam voluptatum atque libero officiis aliquid qui
           ratione voluptate. Minima quae sit recusandae debitis eum aut totam id
           reiciendis facere?"
-            />
+          />
 
-            <PostUserComponent
-              perfilUser={photoperfil3}
-              username="Gabriel sanchez"
-              imgPost={photopost3}
-              descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+          <PostUserComponent
+            perfilUser={photoperfil3}
+            username="Gabriel sanchez"
+            imgPost={photopost3}
+            descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
           repellendus aliquam voluptatum atque libero officiis aliquid qui
           ratione voluptate. Minima quae sit recusandae debitis eum aut totam id
           reiciendis facere?"
-            />
+          />
 
-            <PostUserComponent
-              perfilUser={photoperfil4}
-              username="Luisa Gutierrez"
-              imgPost={photopost4}
-              descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+          <PostUserComponent
+            perfilUser={photoperfil4}
+            username="Luisa Gutierrez"
+            imgPost={photopost4}
+            descripcion="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
           repellendus aliquam voluptatum atque libero officiis aliquid qui
           ratione voluptate. Minima quae sit recusandae debitis eum aut totam id
           reiciendis facere?"
-            />
-          </div>
+          />
         </div>
-      </main>
+      </div>
     </>
   );
 };
