@@ -6,8 +6,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
-    background-image: url("/src/assets/img/img_background2.jpg");
+    height: fit-content;
+    
   
     & .container_posts_users{
       margin-top: 20px;
