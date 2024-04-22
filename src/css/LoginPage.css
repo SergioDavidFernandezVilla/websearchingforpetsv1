@@ -15,6 +15,18 @@
         align-items: center;
         justify-content: center;
 
+        & .login_page_logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            & .login_page_img{
+                width: 500px;
+                height: 500px;
+            }
+        }
+
 
         & .login_page_form{
             gap: 30px;
@@ -27,7 +39,7 @@
             & .login_page_input{
                 font-size: 21px;
                 width: 612px;
-                height: 46px;
+                height: 57px;
                 border-radius: 30px;
                 padding-left: 15px;
                 border: none;
