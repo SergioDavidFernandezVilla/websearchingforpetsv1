@@ -31,7 +31,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("/src/assets/img/img_background2.jpg");
+  background-image: url("src/assets/img/img_background2.jpg");
 }
 
 
@@ -89,45 +89,45 @@ body {
       }
     }
   }
-  
-  .container_home_page{
-    width: 100%;
-    height: 100%;
-  
-    & .container_posts_users{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-  
-      & .post_user{
-        width: calc(100vw - 20px);
-        height: 100%;
-  
-        & .section_post_user{
-            width: 100%;
-            height: 100%;
-  
-            & .article_post_user{
-              width: calc(90vw - 20px);
-              display: flex;
-              justify-content: center;
-              align-items: center;
-  
-                & .img_post_user{
-                  width: calc(90vw - 20px);
-                }
-  
-                & .article_div_post_user_links{
-                    
-                    & .link_post_user{
-                        width: 70px;
-                        height: 70px;
-                    }
-                }
-            }
+    .container_home_page{
+      width: 100%;
+      height: 100%;
+    
+      & .container_posts_users{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+        & .post_user{
+          width: calc(100vw - 20px);
+          height: 100%;
+    
+          & .section_post_user{
+              width: 100%;
+              height: 100%;
+    
+              & .article_post_user{
+                width: calc(90vw - 20px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                  & .img_post_user{
+                    width: calc(90vw - 20px);
+                  }
+    
+                  & .article_div_post_user_links{
+                      
+                      & .link_post_user{
+                          width: 70px;
+                          height: 70px;
+                      }
+                  }
+              }
+          }
         }
       }
     }
-  }
+  
   
   .container_comunidad_page{
     width: 100%;
@@ -630,47 +630,47 @@ body {
       }
     }
   }
-  
-  .container_home_page{
-    width: 100%;
-    height: 100%;
-  
-    & .container_posts_users{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-  
-      & .post_user{
-        max-width: 655px;
-        width: calc(90vw - 20px);
-        height: 100%;
-  
-        & .section_post_user{
-            width: 100%;
-            height: 100%;
-  
-            & .article_post_user{
-             
-              display: flex;
-              justify-content: center;
-              align-items: center;
-  
-                & .img_post_user{
-                  
-                }
-  
-                & .article_div_post_user_links{
+
+    .container_home_page{
+      width: 100%;
+      height: 100%;
+    
+      & .container_posts_users{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+        & .post_user{
+          max-width: 655px;
+          width: calc(90vw - 20px);
+          height: 100%;
+    
+          & .section_post_user{
+              width: 100%;
+              height: 100%;
+    
+              & .article_post_user{
+               
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                  & .img_post_user{
                     
-                    & .link_post_user{
-                        width: 70px;
-                        height: 70px;
-                    }
-                }
-            }
+                  }
+    
+                  & .article_div_post_user_links{
+                      
+                      & .link_post_user{
+                          width: 70px;
+                          height: 70px;
+                      }
+                  }
+              }
+          }
         }
       }
     }
-  }
-  
+
   .container_comunidad_page{
     width: 100%;
     height: 100%;
