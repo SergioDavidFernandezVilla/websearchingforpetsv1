@@ -26,7 +26,7 @@
       justify-content: center;
       align-items: center;
       background-image: url("/src/assets/img/img-fondo-postuser.png");
-      background-repeat: round;
+      background-size: cover;
       
       & .section_post_user{
         width: 100%;

@@ -15,19 +15,19 @@ const VoluntariosPage = () => {
       <div className="container_voluntarios_page">
         <div className="container_posts_voluntarios">
           <PostVoluntariosComponent
-            username="Juan Perez"
+            username="Voluntario 1"
             perfilUser={photoperfil1}
             descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur accumsan, nunc nisl euismod nisl, eget consectetur accumsan nisl nisl euismod nisl"
           />
 
           <PostVoluntariosComponent
-            username="Un wey random"
+            username="Voluntario 2"
             perfilUser={photoperfil2}
             descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur accumsan, nunc nisl euismod nisl, eget consectetur accumsan nisl nisl euismod nisl"
           />
 
           <PostVoluntariosComponent
-            username="Gonzalez"
+            username="Voluntario 3"
             perfilUser={photoperfil3}
             descripcion="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur accumsan, nunc nisl euismod nisl, eget consectetur accumsan nisl nisl euismod nisl"
           />

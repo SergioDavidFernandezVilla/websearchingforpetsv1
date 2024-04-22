@@ -29,7 +29,7 @@
             flex-direction: column;
             border-radius: 4px;
             background-image: url("/src/assets/img/img-fondo-postuser.png");
-            background-repeat: round;
+            background-size: cover;
     
             & .img_veterinarias_page {
                 width: 500px;

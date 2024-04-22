@@ -28,7 +28,7 @@
             flex-direction: column;
             border-radius: 4px;
             background-image: url("/src/assets/img/img-fondo-postuser.png");
-            background-repeat: round;
+            background-size: cover;
 
             & .header_post_user_comunidad{
                 display: flex;

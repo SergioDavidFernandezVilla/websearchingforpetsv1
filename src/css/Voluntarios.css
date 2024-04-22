@@ -28,7 +28,7 @@
             flex-direction: column;
             border-radius: 4px;
             background-image: url("/src/assets/img/img-fondo-postuser.png");
-            background-repeat: round;
+            background-size: cover;
 
             & .header_post_user_voluntarios{
                 display: flex;
@@ -67,7 +67,7 @@
 
                 & .p_post_user_voluntarios{
                     padding: 10px;
-                   font-size: 16px;
+                   font-size: 19px;
                    text-align: start;
                     
                    
