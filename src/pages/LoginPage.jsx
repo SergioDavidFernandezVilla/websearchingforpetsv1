@@ -27,7 +27,7 @@ const LoginPage = () => {
           className="login_page_form"
           onSubmit={handleLogin}
           method="post"
-          netlify
+          netlify="true"
         >
           <input
             className="login_page_input"
