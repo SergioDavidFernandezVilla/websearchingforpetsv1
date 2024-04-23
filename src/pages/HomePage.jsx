@@ -20,6 +20,8 @@ import photopost4 from "../assets/img/photo_post4.jpg";
 //CSS
 import "../css/Home.css";
 
+import ArrowAddPost from "../assets/Icons/icon_add_post.png";
+
 const HomePage = () => {
   return (
     <>
@@ -66,6 +68,18 @@ const HomePage = () => {
           ratione voluptate. Minima quae sit recusandae debitis eum aut totam id
           reiciendis facere?"
           />
+        </div>
+
+        <div className="container_icon_post_users">
+          <figure className="figure_icon_post">
+            <img
+              src={ArrowAddPost}
+              alt="Arrow-post"
+              width="60px"
+              height="60px"
+              className="img_arrow_icon_post_user"
+            />
+          </figure>
         </div>
       </div>
     </>

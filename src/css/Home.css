@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: fit-content;
-    
+    position: relative;
   
     & .container_posts_users{
       margin-top: 20px;
@@ -102,6 +102,33 @@
             }
           }
         }
+      }
+    }
+  }
+
+  & .container_icon_post_users{
+    
+    position: fixed;
+    display: flex;
+    justify-content: start;
+    padding: 18px;
+    align-items: end;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    & .figure_icon_post{
+      width: 80px;
+      height: 80px;
+      cursor: pointer;
+     
+      
+
+      & .img_arrow_icon_post_user{
+        width: 100%;
+        height: 100%;
+        outline: none;
       }
     }
   }
