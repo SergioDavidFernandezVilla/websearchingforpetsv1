@@ -110,8 +110,8 @@
     
     position: fixed;
     display: flex;
-    justify-content: start;
-    padding: 18px;
+    justify-content: end;
+    padding: 12px;
     align-items: end;
     bottom: 0;
     left: 0;
