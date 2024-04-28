@@ -4,7 +4,7 @@ import PostVeterinariasComponent from "../components/PostVeterinariasComponent";
 import "../css/Veterinarias.css";
 
 //IMAGENES VETERINARIAS
-import photoVeterinaria1 from "../assets/img/photo_VeterinariaPost1.jpg";
+import photoVeterinaria1 from "../assets/img/photo_VeterinariaPost1.webp";
 import photoVeterinaria2 from "../assets/img/photo_VeterinariaPost2.png";
 import photoVeterinaria3 from "../assets/img/photo_VeterinariaPost3.png";
 

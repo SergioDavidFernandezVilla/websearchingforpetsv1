@@ -73,8 +73,8 @@
               gap: 16px;
       
               & .img_post_user_urgencias{
-                width: 400px;
-                height: 300px;
+                max-width: 390px;
+                max-height: 360px;
                 border-radius: 20px;
             
               }

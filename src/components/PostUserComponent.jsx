@@ -21,7 +21,9 @@ const PostUserComponent = ({ perfilUser, username, imgPost, descripcion }) => {
         </header>
 
         <article className="article_post_user">
-          <img className="img_post_user" src={imgPost} alt="img-post" />
+          <figure className="figure_img_post_user">
+            <img className="img_post_user" src={imgPost} alt="img-post" />
+          </figure>
 
           <div className="article_div_post_user_links">
             <Link className="link_post_user">

@@ -3,9 +3,9 @@ import PostVoluntariosComponent from "../components/PostVoluntariosComponent";
 import "../css/Voluntarios.css";
 
 //IMAGENES PERFIL
-import photoperfil1 from "../assets/img/photo_perfil1.jpg";
-import photoperfil2 from "../assets/img/photo_perfil4.jpg";
-import photoperfil3 from "../assets/img/photo_perfil3.jpg";
+import photoperfil1 from "../assets/img/photo_perfil1.webp";
+import photoperfil2 from "../assets/img/photo_perfil4.webp";
+import photoperfil3 from "../assets/img/photo_perfil3.webp";
 
 const VoluntariosPage = () => {
   return (

@@ -1,15 +1,15 @@
 //IMAGENES DE POST
-import imagen1Post from "../assets/img/fotos_urgencias/post1_urgencias.jpg";
-import imagen2Post from "../assets/img/fotos_urgencias/post2_urgencias.jpg";
-import imagen3Post from "../assets/img/fotos_urgencias/post3_urgencias.jpg";
-import imagen4Post from "../assets/img/fotos_urgencias/post4_urgencias.png";
-import imagen5Post from "../assets/img/fotos_urgencias/post5_urgencias.jpg";
-import imagen6Post from "../assets/img/fotos_urgencias/post6_urgencias.jpg";
+import imagen1Post from "../assets/img/fotos_urgencias/post1_urgencias.webp";
+import imagen2Post from "../assets/img/fotos_urgencias/post2_urgencias.webp";
+import imagen3Post from "../assets/img/fotos_urgencias/post3_urgencias.webp";
+import imagen4Post from "../assets/img/fotos_urgencias/post4_urgencias.webp";
+import imagen5Post from "../assets/img/fotos_urgencias/post5_urgencias.webp";
+import imagen6Post from "../assets/img/fotos_urgencias/post6_urgencias.webp";
 
 //IMAGENES DE PERFIL
-import photoperfil1 from "../assets/img/photo_perfil1.jpg";
-import photoperfil2 from "../assets/img/photo_perfil4.jpg";
-import photoperfil3 from "../assets/img/photo_perfil3.jpg";
+import photoperfil1 from "../assets/img/photo_perfil1.webp";
+import photoperfil2 from "../assets/img/photo_perfil4.webp";
+import photoperfil3 from "../assets/img/photo_perfil3.webp";
 
 
 const JsonDetalles = () => {

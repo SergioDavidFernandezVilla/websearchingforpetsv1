@@ -2,25 +2,23 @@ import HeaderComponent from "../components/HeaderComponent";
 import PostUserComponent from "../components/PostUserComponent";
 import perfil from "../assets/Icons/icon_notificaciones.png";
 
-import petPost1 from "../assets/img/img-pet1.jpg";
-import petPost2 from "../assets/img/img-pet2.jpg";
+import petPost1 from "../assets/img/img-pet1.webp";
+import petPost2 from "../assets/img/img-pet2.webp";
 
 //FOTOS DE PERFIL
-import photoperfil1 from "../assets/img/photo_perfil1.jpg";
-import photoperfil2 from "../assets/img/photo_perfil2.jpg";
-import photoperfil3 from "../assets/img/photo_perfil3.jpg";
-import photoperfil4 from "../assets/img/photo_perfil4.jpg";
+import photoperfil1 from "../assets/img/photo_perfil1.webp";
+import photoperfil2 from "../assets/img/photo_perfil2.webp";
+import photoperfil3 from "../assets/img/photo_perfil3.webp";
+import photoperfil4 from "../assets/img/photo_perfil4.webp";
 
 //FOTOS DE POSTS
-import photopost1 from "../assets/img/photo_post1.jpg";
-import photopost2 from "../assets/img/photo_post2.jpg";
-import photopost3 from "../assets/img/photo_post3.jpg";
-import photopost4 from "../assets/img/photo_post4.jpg";
+import photopost1 from "../assets/img/photo_post1.webp";
+import photopost2 from "../assets/img/photo_post2.webp";
+import photopost3 from "../assets/img/photo_post3.webp";
+import photopost4 from "../assets/img/photo_post4.webp";
 
 //CSS
 import "../css/Home.css";
-
-import ArrowAddPost from "../assets/Icons/icon_add_post.png";
 
 const HomePage = () => {
   return (
@@ -68,18 +66,6 @@ const HomePage = () => {
           ratione voluptate. Minima quae sit recusandae debitis eum aut totam id
           reiciendis facere?"
           />
-        </div>
-
-        <div className="container_icon_post_users">
-          <figure className="figure_icon_post">
-            <img
-              src={ArrowAddPost}
-              alt="Arrow-post"
-              width="60px"
-              height="60px"
-              className="img_arrow_icon_post_user"
-            />
-          </figure>
         </div>
       </div>
     </>

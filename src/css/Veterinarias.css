@@ -32,8 +32,8 @@
             background-size: cover;
     
             & .img_veterinarias_page {
-                width: 500px;
-                height: 400px;
+                max-width: 500px;
+                max-height: 400px;
                 border-radius: 8px;
             }
     

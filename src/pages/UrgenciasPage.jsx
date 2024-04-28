@@ -3,17 +3,17 @@ import HeaderComponent from "../components/HeaderComponent";
 import PostUrgenciasComponent from "../components/PostUrgenciasComponent";
 
 //IMAGENES PERFIL
-import photoperfil1 from "../assets/img/photo_perfil1.jpg";
-import photoperfil2 from "../assets/img/photo_perfil4.jpg";
-import photoperfil3 from "../assets/img/photo_perfil3.jpg";
+import photoperfil1 from "../assets/img/photo_perfil1.webp";
+import photoperfil2 from "../assets/img/photo_perfil4.webp";
+import photoperfil3 from "../assets/img/photo_perfil3.webp";
 
 //IMAGENES POST URGENCIAS
-import post1Urgencias from "../assets/img/fotos_urgencias/post1_urgencias.jpg";
-import post2Urgencias from "../assets/img/fotos_urgencias/post2_urgencias.jpg";
-import post3Urgencias from "../assets/img/fotos_urgencias/post3_urgencias.jpg";
-import post4Urgencias from "../assets/img/fotos_urgencias/post4_urgencias.png";
-import post5Urgencias from "../assets/img/fotos_urgencias/post5_urgencias.jpg";
-import post6Urgencias from "../assets/img/fotos_urgencias/post6_urgencias.jpg";
+import post1Urgencias from "../assets/img/fotos_urgencias/post1_urgencias.webp";
+import post2Urgencias from "../assets/img/fotos_urgencias/post2_urgencias.webp";
+import post3Urgencias from "../assets/img/fotos_urgencias/post3_urgencias.webp";
+import post4Urgencias from "../assets/img/fotos_urgencias/post4_urgencias.webp";
+import post5Urgencias from "../assets/img/fotos_urgencias/post5_urgencias.webp";
+import post6Urgencias from "../assets/img/fotos_urgencias/post6_urgencias.webp";
 
 import "../css/Urgencias.css";
 

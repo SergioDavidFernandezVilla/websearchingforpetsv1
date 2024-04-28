@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import imgNotFound from "../assets/img/img-not-found.jpg";
+import imgNotFound from "../assets/img/img-not-found.webp";
 import ArrowLeft from "../assets/img/arrow-left-icons.png";
 import "../css/NotFound.css";
 

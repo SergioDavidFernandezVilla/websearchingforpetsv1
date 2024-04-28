@@ -31,7 +31,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(./assets/img/background.jpg);
+  background-image: url(./assets/img/background.webp);
 }
 
 
@@ -39,7 +39,7 @@ body {
   
   .header_hero{
     background-color: var(--background-color-header);
-    height: 119px;
+   
     width: 100%;
   
     & .header_nav{
@@ -61,7 +61,8 @@ body {
         }
   
         & .menu_despejable{
-          top:-45%;
+          
+          left: -27%;
           width: 100vw;
           
           
@@ -75,19 +76,32 @@ body {
           }
         }
       }
-  
-      & .header_form{
-        width: 100%;
-  
-        & .header_form_search{
-          width: 100%;
-  
-          & .header_form_input{
-            width: calc(70vw - 20px);
-          }
-        }
-      }
     }
+
+    & .header_nav_segundo{
+      height: 80px;
+      width: 100%;
+      gap:15px;
+      padding-right: 10px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      background-color: #a7a9e1;
+      
+      & .header_nav_segundo_link{
+          text-decoration: none;
+
+          & .figure_img_nav_segundo{
+              height: 50px;
+              width: 50px;
+
+              & .img_icon_nav_segundo{
+                  width: 100%;
+                  height: 100%;
+              }
+          }
+      }
+  }
   }
     .container_home_page{
       width: 100%;
@@ -111,9 +125,15 @@ body {
                 justify-content: center;
                 align-items: center;
     
+                & .figure_img_post_user{
+                  max-width: 300px;
+                  width: calc(80vw - 20px);
+                  height: 280px;
+
                   & .img_post_user{
-                    width: calc(90vw - 20px);
+                    
                   }
+                }
     
                   & .article_div_post_user_links{
                       
@@ -616,7 +636,7 @@ body {
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .header_hero{
     background-color: var(--background-color-header);
-    height: 119px;
+   
     width: 100%;
   
     & .header_nav{
@@ -638,7 +658,7 @@ body {
         }
   
         & .menu_despejable{
-          top:-45%;
+          left: -28%;
           width: 70vw;
           
           
@@ -652,20 +672,32 @@ body {
           }
         }
       }
-  
-      & .header_form{
-        width: 100%;
-  
-        & .header_form_search{
-          width: 100%;
-  
-          & .header_form_input{
-            max-width: 400px;
-            min-width: 200px;
-          }
-        }
-      }
     }
+
+    & .header_nav_segundo{
+      height: 80px;
+      width: 100%;
+      gap:15px;
+      padding-right: 10px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      background-color: #a7a9e1;
+      
+      & .header_nav_segundo_link{
+          text-decoration: none;
+
+          & .figure_img_nav_segundo{
+              height: 50px;
+              width: 50px;
+
+              & .img_icon_nav_segundo{
+                  width: 100%;
+                  height: 100%;
+              }
+          }
+      }
+  }
   }
 
     .container_home_page{
@@ -691,10 +723,14 @@ body {
                 justify-content: center;
                 align-items: center;
     
+                & .figure_img_post_user{
+                  width: 340px;
+                  height: 300px;
+
                   & .img_post_user{
                     
                   }
-    
+                }
                   & .article_div_post_user_links{
                       
                       & .link_post_user{
@@ -1206,7 +1242,7 @@ body {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .header_hero{
     background-color: var(--background-color-header);
-    height: 119px;
+   
     width: 100%;
   
     & .header_nav{
@@ -1228,7 +1264,7 @@ body {
         }
   
         & .menu_despejable{
-          top:-45%;
+          left: -28%;
           width: 50vw;
           
           
@@ -1239,18 +1275,6 @@ body {
               width: 100px;
               height: 100px;
             }
-          }
-        }
-      }
-  
-      & .header_form{
-        width: 100%;
-  
-        & .header_form_search{
-          width: 100%;
-  
-          & .header_form_input{
-            width: 400px;
           }
         }
       }
@@ -1803,7 +1827,7 @@ body {
 @media screen and (min-width: 1025px) and (max-width: 1340px) {
   .header_hero{
     background-color: var(--background-color-header);
-    height: 119px;
+  
     width: 100%;
   
     & .header_nav{
@@ -1825,7 +1849,7 @@ body {
         }
   
         & .menu_despejable{
-          top:-45%;
+          left: -28%;
           width: 40vw;
           
           
@@ -1836,18 +1860,6 @@ body {
               width: 100px;
               height: 100px;
             }
-          }
-        }
-      }
-  
-      & .header_form{
-        width: 100%;
-  
-        & .header_form_search{
-          width: 100%;
-  
-          & .header_form_input{
-            width: 400px;
           }
         }
       }
@@ -1957,7 +1969,7 @@ body {
         
         
         & .img_veterinarias_page{
-          max-width: 605px;
+       
           width: calc(50vw - 20px);
         }
   
@@ -2392,7 +2404,7 @@ body {
 @media screen and (min-width: 1341px) and (max-width: 1640px) {
   .header_hero{
     background-color: var(--background-color-header);
-    height: 119px;
+   
     width: 100%;
   
     & .header_nav{
@@ -2425,18 +2437,6 @@ body {
               width: 100px;
               height: 100px;
             }
-          }
-        }
-      }
-  
-      & .header_form{
-        width: 100%;
-  
-        & .header_form_search{
-          width: 100%;
-  
-          & .header_form_input{
-            width: 400px;
           }
         }
       }
