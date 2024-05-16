@@ -27,6 +27,7 @@
       align-items: center;
       background-image: url("/src/assets/img/img-fondo-postuser.png");
       background-size: cover;
+      animation: AnimationCard 0.5s ease-in-out;
       
       & .section_post_user{
         width: 100%;
@@ -118,5 +119,36 @@
 }
 
 
+@keyframes AnimationCard {
+  0%{
 
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+  20%{
+    opacity: 0.3;
+    transform: translateX(20px);
+  }
+
+  40%{
+    opacity: 0.6;
+    transform: translateX(-20px);
+  }
+
+  60%{
+    opacity: 0.9;
+    transform: translateX(20px);
+  }
+
+  80%{
+    opacity: 1;
+    transform: translateX(-20px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 

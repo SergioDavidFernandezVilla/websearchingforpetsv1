@@ -8,7 +8,9 @@ const PostVeterinariasComponent = ({
 }) => {
   return (
     <div className="section_veterinarias_page">
-      <img className="img_veterinarias_page" src={imgURL} alt={imgALT} />
+      <figure className="figure_verinarias_page">
+        <img className="img_veterinarias_page" src={imgURL} alt={imgALT} />
+      </figure>
 
       <article className="article_veterinarias_page">
         <Link className="link_veterinarias_page">

@@ -1,22 +1,32 @@
+import React from "react";
 import { Link } from "react-router-dom";
+import LazyLoad from "react-lazy-load";
 import info from "../assets/Icons/icon_info.png";
 import adoptar from "../assets/Icons/icon_adoptar.png";
 import compartir from "../assets/Icons/icon_compartir.png";
 
-const PostUserComponent = ({ perfilUser, username, imgPost, descripcion }) => {
+const PostUserComponent = ({
+  perfilUser,
+  username,
+  imgPost,
+  descripcion,
+  onClick,
+  ModalPostShare,
+}) => {
   return (
     <div className="post_user">
       <section className="section_post_user">
         <header className="header_post_user">
           <div className="div_post_user">
-            <img
-              className="img_perfil_post_user"
-              src={perfilUser}
-              alt="img-perfil"
-            />
+            <figure className="figure_perfil_post_user">
+              <img
+                className="img_perfil_post_user"
+                src={perfilUser}
+                alt="img-perfil"
+              />
+            </figure>
             <h3 className="h3_post_user">{username}</h3>
           </div>
-
           <p className="p_post_user">{descripcion}</p>
         </header>
 
@@ -40,7 +50,7 @@ const PostUserComponent = ({ perfilUser, username, imgPost, descripcion }) => {
                 alt="icon_adoptar"
               />
             </Link>
-            <Link className="link_post_user">
+            <Link className="link_post_user" onClick={ModalPostShare}>
               <img
                 className="link_post_user_img_icon"
                 src={compartir}

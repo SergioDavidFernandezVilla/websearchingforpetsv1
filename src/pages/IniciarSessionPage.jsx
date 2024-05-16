@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logo.png";
-
+import logo from "../assets/Icons/logoEmpresa.png";
 import "../css/InciarSession.css";
 const IniciarSessionPage = () => {
   return (

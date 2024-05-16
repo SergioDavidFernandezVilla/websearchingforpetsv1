@@ -1,4 +1,4 @@
-import logo from "../assets/img/logo.png";
+import logo from "../assets/Icons/logoEmpresa.png";
 import perfilImg from "../assets/Icons/icon_btn_photoperfil.png";
 import "../css/Registrarse.css";
 

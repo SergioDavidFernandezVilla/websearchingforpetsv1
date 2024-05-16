@@ -32,6 +32,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(./assets/img/background.webp);
+
 }
 
 
@@ -61,8 +62,7 @@ body {
         }
   
         & .menu_despejable{
-          
-          left: -27%;
+          left: 0;
           width: 100vw;
           
           
@@ -75,6 +75,36 @@ body {
             }
           }
         }
+
+        & .div_header_nav_link_container_nose{
+          width: 100%;
+
+
+          & .header_nav_link{
+              cursor: pointer;
+              background: #75e7ed;
+              border-radius: 50%;
+              width: 72px;
+              height: 72px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+          }
+      }
+
+      & .div_nav_title_container{
+
+          & .linlk_title_home{
+              text-decoration: none;
+
+              & .h2_nav_title_container{
+                  font-size: 19px;
+                  font-weight: 600;
+                  color:rgb(41, 41, 41);
+              }
+          }
+      }
       }
     }
 
@@ -103,7 +133,76 @@ body {
       }
   }
   }
-    .container_home_page{
+
+  .container_search_component{
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    background-color: #a1a2d5;
+    top:0;
+    width: 100%;
+    height: 90px;
+    
+
+    & .container_search_animation{
+        display: flex;
+        gap:15px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        & .container_input_search_component{
+            width: calc(90% - 60px);
+            height: 45px;
+            position: relative;
+           
+
+            & .input_search_component{
+                width: 100%;
+                height: 100%;
+                border:1px;
+                padding: 0px 40px;     
+                outline: none;
+                border-radius: 4px;
+                font-size: 1.1rem;
+            }
+
+            & .div_figure_search_component{
+                height: 25px;
+                width: 25px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                z-index: 1;
+    
+                & .img_search_component{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+    
+        }
+
+        & .btn_search_component{
+            font-size: 1.1rem;
+            border:none;
+            height: 45px;
+            width: 60px;
+            border-radius: 4px;
+            background-color: #ffff;
+            color:black;
+        }
+
+        & .btn_search_component:hover{
+            transition: all 0.3s ease-in-out;
+            font-weight: 620;
+            cursor: pointer;
+            background-color: #e3e3e3;
+        }
+    }  
+}
+  
+  .container_home_page{
       width: 100%;
       height: 100%;
     
@@ -146,8 +245,7 @@ body {
           }
         }
       }
-    }
-  
+  }
   
   .container_comunidad_page{
     width: 100%;
@@ -212,10 +310,16 @@ body {
      
         
         
-        & .img_veterinarias_page{
-          width: calc(90vw - 20px);
-         
-        }
+        & .figure_verinarias_page{
+          width: calc(90% - 10px);
+          height: 360px;
+
+          & .img_veterinarias_page {
+              width: 100%;
+              height: 100%;
+              border-radius: 8px;
+          }
+      }
   
         & .article_veterinarias_page{
           width: calc(100vw - 20px);
@@ -415,11 +519,17 @@ body {
               flex-direction: column;
               gap: 16px;
       
-              & .img_post_user_urgencias{
-                width: calc(90vw - 20px);
-                height: 220px;
-                border-radius: 20px;
-            
+              & .figure_post_user_urgencias{
+                height: 250px;
+                width: 300px;
+                
+
+                & .img_post_user_urgencias{
+                  border-radius: 4px;
+                 width: 100%;
+                 height: 100%;
+              
+                }
               }
       
               & .article_div_post_user_links_urgencias{
@@ -454,7 +564,7 @@ body {
   
   }
 
-.background_detalles{
+  .background_detalles{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -671,6 +781,51 @@ body {
             }
           }
         }
+
+        & .menu_despejable{
+          left: 0;
+          width: 100vw;
+          
+          
+          & .menu_despejable_header{
+            width: 100%;
+  
+            & .menu_despejable_img{
+              width: 100px;
+              height: 100px;
+            }
+          }
+        }
+
+        & .div_header_nav_link_container_nose{
+          width: 100%;
+
+
+          & .header_nav_link{
+              cursor: pointer;
+              background: #75e7ed;
+              border-radius: 50%;
+              width: 72px;
+              height: 72px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+          }
+      }
+
+      & .div_nav_title_container{
+
+          & .linlk_title_home{
+              text-decoration: none;
+
+              & .h2_nav_title_container{
+                  font-size: 22px;
+                  font-weight: 600;
+                  color:rgb(41, 41, 41);
+              }
+          }
+      }
       }
     }
 
@@ -699,6 +854,49 @@ body {
       }
   }
   }
+
+  .container_search_component{
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    background-color: #a1a2d5;
+    top:0;
+    width: 100%;
+    height: 90px;
+    
+
+    & .container_search_animation{
+        display: flex;
+        gap:15px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        & .input_search_component{
+            border:1px;
+            padding:10px;
+            width: 380px;
+            height: 45px;
+            outline: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+        }
+    
+        & .btn_search_component{
+            font-size: 1.1rem;
+            border:none;
+            height: 45px;
+            width: 100px;
+            border-radius: 4px;
+            background-color: #ffff;
+            color:black;
+        }
+    }  
+}
+
+.container_search_component_close{
+    display: none;
+}
 
     .container_home_page{
       width: 100%;

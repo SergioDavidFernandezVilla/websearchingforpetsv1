@@ -72,12 +72,19 @@
               flex-direction: column;
               gap: 16px;
       
-              & .img_post_user_urgencias{
-                max-width: 390px;
-                max-height: 360px;
-                border-radius: 20px;
-            
+              & .figure_post_user_urgencias{
+                height: 300px;
+                width: 360px;
+                
+
+                & .img_post_user_urgencias{
+                  border-radius: 4px;
+                 width: 100%;
+                 height: 100%;
+              
+                }
               }
+         
       
               & .article_div_post_user_links_urgencias{
                 display: flex;

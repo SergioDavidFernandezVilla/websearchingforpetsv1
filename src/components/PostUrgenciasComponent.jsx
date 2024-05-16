@@ -16,12 +16,13 @@ const PostUrgenciasComponent = ({ perfilUser, username, imgPost, URlPros }) => {
         </header>
 
         <article className="article_post_user_urgencias">
-          <img
-            className="img_post_user_urgencias"
-            src={imgPost}
-            alt="img-post"
-          />
-
+          <figure className="figure_post_user_urgencias">
+            <img
+              className="img_post_user_urgencias"
+              src={imgPost}
+              alt="img-post"
+            />
+          </figure>
           <div className="article_div_post_user_links_urgencias">
             <p className="link_post_user_urgencias">Saber mas</p>
           </div>

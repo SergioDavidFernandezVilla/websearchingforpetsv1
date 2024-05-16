@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logo.png";
 
 import "../css/LoginPage.css";
 
@@ -19,9 +18,7 @@ const LoginPage = () => {
   return (
     <div className="container_login_page">
       <div className="login_page">
-        <div className="login_page_logo">
-          <img className="login_page_img" src={logo} alt="logo" />
-        </div>
+        <div className="login_page_logo"></div>
 
         <form
           className="login_page_form"
