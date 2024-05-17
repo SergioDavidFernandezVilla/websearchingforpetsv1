@@ -76,6 +76,15 @@ const HomePage = () => {
           reiciendis facere?"
           />
         </div>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis amet
+            esse facere, molestiae iusto quibusdam rerum, reiciendis sapiente ex
+            officia molestias libero. Fugiat obcaecati, iure porro iste debitis
+            dolores rem!
+          </p>
+        </div>
       </div>
     </>
   );
