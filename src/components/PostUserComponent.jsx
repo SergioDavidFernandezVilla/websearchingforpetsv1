@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LazyLoad from "react-lazy-load";
 import info from "../assets/Icons/icon_info.png";
-import adoptar from "../assets/Icons/icon_adoptar.png";
-import compartir from "../assets/Icons/icon_compartir.png";
+
+import ShareComponent from "./PostShare/ShareComponent";
 
 const PostUserComponent = ({
   perfilUser,
   username,
   imgPost,
   descripcion,
-  onClick,
-  ModalPostShare,
+  slug,
+  Comentario,
 }) => {
   return (
     <div className="post_user">
@@ -27,7 +26,10 @@ const PostUserComponent = ({
             </figure>
             <h3 className="h3_post_user">{username}</h3>
           </div>
-          <p className="p_post_user">{descripcion}</p>
+
+          <div className="div_post_user_descripcion">
+            <p className="p_post_user">{descripcion}</p>
+          </div>
         </header>
 
         <article className="article_post_user">
@@ -36,27 +38,15 @@ const PostUserComponent = ({
           </figure>
 
           <div className="article_div_post_user_links">
-            <Link className="link_post_user">
+            <Link to={`/post/${slug}`} className="link_post_user">
               <img
                 className="link_post_user_img_icon"
                 src={info}
                 alt="icon_info"
               />
             </Link>
-            <Link className="link_post_user">
-              <img
-                className="link_post_user_img_icon"
-                src={adoptar}
-                alt="icon_adoptar"
-              />
-            </Link>
-            <Link className="link_post_user" onClick={ModalPostShare}>
-              <img
-                className="link_post_user_img_icon"
-                src={compartir}
-                alt="icon_compartir"
-              />
-            </Link>
+
+            <ShareComponent />
           </div>
         </article>
       </section>

@@ -64,6 +64,16 @@
             font-size: 24px;
           }
           }
+
+          & .div_post_user_descripcion{
+            width: 100%;
+
+            & .p_post_user{
+              font-weight: 500;
+              font-size: 17px;
+              line-height: 18px;
+            }
+          }
         }
   
         & .article_post_user{

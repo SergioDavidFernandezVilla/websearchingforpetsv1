@@ -10,15 +10,20 @@ import NotFound from "./pages/NotFound";
 import AjustesPage from "./pages/AjustesPage";
 import UrgenciasPage from "./pages/UrgenciasPage";
 import DetallePostUrgencias from "./components/DetallePostUrgenciasComponent";
+import SharePostPage from "./pages/SharePostPage";
+import PostDetailPage from "./pages/PostDetailPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/post/share" element={<SharePostPage />} />
         <Route path="/veterinarias" element={<VeterinariasPage />} />
         <Route path="/voluntarios" element={<VoluntariosPage />} />
         <Route path="/comunidad" element={<ComunidadPage />} />
+
+        <Route path="/post/:slug" element={<PostDetailPage />} />
 
         {/* Movemos la ruta de DetallePostUrgencias dentro del Routes */}
         <Route path="/urgencias" element={<UrgenciasPage />} />
