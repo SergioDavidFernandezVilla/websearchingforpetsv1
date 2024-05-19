@@ -7,8 +7,8 @@ import JsonPostUser from "../service/JsonPostUser";
 
 const HomePage = () => {
   const [modal, setModal] = useState(false);
-  const [posts, setPosts] = useState([]);
   const [postsOpen, setPostsOpen] = useState(false);
+  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     const data = JsonPostUser();
