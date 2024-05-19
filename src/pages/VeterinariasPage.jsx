@@ -21,6 +21,7 @@ const VeterinariasPage = () => {
           <PostVeterinariasComponent
             imgURL={photoVeterinaria1}
             imgALT="Veterinaria"
+            slug="1"
             imgINFO={info}
             imgCOMPARTIR={compartir}
           />
@@ -28,6 +29,7 @@ const VeterinariasPage = () => {
           <PostVeterinariasComponent
             imgURL={photoVeterinaria2}
             imgALT="Veterinaria"
+            slug="2"
             imgINFO={info}
             imgCOMPARTIR={compartir}
           />
@@ -35,6 +37,7 @@ const VeterinariasPage = () => {
           <PostVeterinariasComponent
             imgURL={photoVeterinaria3}
             imgALT="Veterinaria"
+            slug="3"
             imgINFO={info}
             imgCOMPARTIR={compartir}
           />

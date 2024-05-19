@@ -5,6 +5,7 @@ const PostVeterinariasComponent = ({
   imgINFO,
   imgCOMPARTIR,
   imgALT,
+  slug,
 }) => {
   return (
     <div className="section_veterinarias_page">
@@ -13,10 +14,14 @@ const PostVeterinariasComponent = ({
       </figure>
 
       <article className="article_veterinarias_page">
-        <Link className="link_veterinarias_page">
+        <Link
+          className="link_veterinarias_page"
+          to={`/post/veterinaria/${slug}`}
+        >
           <img className="img_info_veterinarias_page" src={imgINFO} />
         </Link>
-        <Link className="link_veterinarias_page">
+
+        <Link className="link_veterinarias_page" to="/post/share">
           <img className="img_info_veterinarias_page" src={imgCOMPARTIR} />
         </Link>
       </article>

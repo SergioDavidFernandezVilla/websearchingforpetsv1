@@ -12,6 +12,7 @@ import UrgenciasPage from "./pages/UrgenciasPage";
 import DetallePostUrgencias from "./components/DetallePostUrgenciasComponent";
 import SharePostPage from "./pages/SharePostPage";
 import PostDetailPage from "./pages/PostDetailPage";
+import PostDetailVeterinaria from "./pages/PostDetailVeterinaria";
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
         <Route path="/comunidad" element={<ComunidadPage />} />
 
         <Route path="/post/:slug" element={<PostDetailPage />} />
+        <Route
+          path="/post/veterinaria/:slug"
+          element={<PostDetailVeterinaria />}
+        />
 
         {/* Movemos la ruta de DetallePostUrgencias dentro del Routes */}
         <Route path="/urgencias" element={<UrgenciasPage />} />

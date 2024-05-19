@@ -23,14 +23,14 @@ const PostComunidadComponent = ({ username, perfilUser, descripcion }) => {
 
       <article className="article_post_user_comunidad">
         <div className="div_post_user_comunidad_links">
-          <Link className="link_post_user_comunidad">
+          <Link className="link_post_user_comunidad" to="/">
             <img
               className="img_post_user_comunidad"
               src={adoptar}
               alt="icon_adoptar"
             />
           </Link>
-          <Link className="link_post_user_comunidad">
+          <Link className="link_post_user_comunidad" to="/post/share">
             <img
               className="img_post_user_comunidad"
               src={compartir}

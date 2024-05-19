@@ -30,7 +30,7 @@ const PostVoluntariosComponent = ({ username, perfilUser, descripcion }) => {
               alt="icon_adoptar"
             />
           </Link>
-          <Link className="link_post_user_voluntarios">
+          <Link className="link_post_user_voluntarios" to="/post/share">
             <img
               className="img_post_user_voluntarios"
               src={icono2}
