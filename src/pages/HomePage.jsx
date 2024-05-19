@@ -19,8 +19,8 @@ const HomePage = () => {
     setModal(!modal);
   };
 
-  const handleTogglePosts = (isOpen) => {
-    setPostsOpen(isOpen);
+  const handleTogglePosts = () => {
+    setPostsOpen(!postsOpen);
   };
 
   const ModalText = ({ handleTogglePosts }) => {
