@@ -245,6 +245,143 @@ body {
           }
         }
       }
+
+     
+      .modal_container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    
+        & .modal{
+          width: calc(100% - 20px);
+          
+          background-color: white;
+          border-radius: 20px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+          position: relative;
+    
+          & .modal_header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            height: 70px;
+    
+            & .modal_header_h2{
+              font-size: 20px;
+              font-weight: 700;
+              color:black;
+            }
+          }
+    
+          & .form_modal{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            height: 100%;
+    
+            & .form_modal_div{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              gap: 20px;
+              width: 100%;
+              height: 100%;
+    
+              & .form_modal_label{
+                font-size: 17px;
+                font-weight: 700;
+                color:black;
+              }
+    
+              & .form_modal_input{
+                width: 100%;
+                height: 50px;
+                border-radius: 30px;
+                border: none;
+                padding: 10px;
+                font-size: 20px;
+                font-weight: 500;
+                text-align: center;
+              }
+    
+              & .form_modal_input:focus{
+                outline: none;
+              }
+    
+              & .form_modal_input::placeholder{
+                color:rgb(47, 47, 47);
+                opacity: 0.5;
+              }
+            }
+    
+    
+            & .form_modal_btn{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              height: 50px;
+              border-radius: 30px;
+              background-color: var(--background-color1);
+              color:white;
+              border: none;
+              font-weight: 500;
+              font-size: 20px;
+              text-align: center;
+            }
+    
+            & .form_modal_btn:hover{
+              transition: all 0.3s ease-in-out;
+              font-weight: 700;
+              cursor: pointer;
+              background-color: var(--background-color2);
+            }
+          }
+        }
+    
+        & .container_modal_close{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          display: flex;
+          justify-content: end;
+          align-items: start;
+          z-index: 100;
+          padding: 0px 20px;
+    
+          & .container_modal_close_btn{
+            width: 50px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            background: none;
+            font-size: 24px;
+    
+            & .container_modal_close_btn:hover{
+              transition: all 0.3s ease-in-out;
+              background-color: var(--background-color2);
+            }
+          }
+          }
+      }
   }
   
   .container_comunidad_page{
@@ -1162,6 +1299,142 @@ body {
           }
         }
       }
+
+      .modal_container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    
+        & .modal{
+          width: calc(100% - 20px);
+          
+          background-color: white;
+          border-radius: 20px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+          position: relative;
+    
+          & .modal_header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            height: 70px;
+    
+            & .modal_header_h2{
+              font-size: 20px;
+              font-weight: 700;
+              color:black;
+            }
+          }
+    
+          & .form_modal{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            height: 100%;
+    
+            & .form_modal_div{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              gap: 20px;
+              width: 100%;
+              height: 100%;
+    
+              & .form_modal_label{
+                font-size: 17px;
+                font-weight: 700;
+                color:black;
+              }
+    
+              & .form_modal_input{
+                width: 100%;
+                height: 50px;
+                border-radius: 30px;
+                border: none;
+                padding: 10px;
+                font-size: 20px;
+                font-weight: 500;
+                text-align: center;
+              }
+    
+              & .form_modal_input:focus{
+                outline: none;
+              }
+    
+              & .form_modal_input::placeholder{
+                color:rgb(47, 47, 47);
+                opacity: 0.5;
+              }
+            }
+    
+    
+            & .form_modal_btn{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              height: 50px;
+              border-radius: 30px;
+              background-color: var(--background-color1);
+              color:white;
+              border: none;
+              font-weight: 500;
+           
+              text-align: center;
+            }
+    
+            & .form_modal_btn:hover{
+              transition: all 0.3s ease-in-out;
+              font-weight: 700;
+              cursor: pointer;
+              background-color: var(--background-color2);
+            }
+          }
+        }
+    
+        & .container_modal_close{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          display: flex;
+          justify-content: end;
+          align-items: start;
+          z-index: 100;
+          padding: 0px 20px;
+    
+          & .container_modal_close_btn{
+            width: 50px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            background: none;
+            font-size: 24px;
+    
+            & .container_modal_close_btn:hover{
+              transition: all 0.3s ease-in-out;
+              background-color: var(--background-color2);
+            }
+          }
+          }
+      }
     }
 
   .container_comunidad_page{
@@ -1675,7 +1948,7 @@ body {
             flex-direction: column;
             position: relative;
             width: calc(100vw - 20px);
-            height: 760px;
+            height: 890px;
             border-radius: 8px;
             background-color: azure;
             
@@ -1820,6 +2093,8 @@ body {
             }    
         }    
   }
+
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {

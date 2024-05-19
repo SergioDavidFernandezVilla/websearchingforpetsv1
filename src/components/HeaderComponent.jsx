@@ -19,11 +19,17 @@ import urgencias from "../assets/Icons/Icons_menu/urgencias.webp";
 import veteninarias from "../assets/Icons/Icons_menu/veteninarias.webp";
 import ajutes from "../assets/Icons/Icons_menu/settings.webp";
 
-const HeaderComponent = () => {
+const HeaderComponent = ({ togglePostsFromHome }) => {
   //LOGICA
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [postsOpen, setPostsOpen] = useState(false);
+
+  const togglePosts = () => {
+    console.log("postsOpen", postsOpen);
+    setPostsOpen(!postsOpen);
+  };
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -31,6 +37,14 @@ const HeaderComponent = () => {
 
   const toggleSearch = () => {
     setSearchOpen(!searchOpen);
+  };
+
+  const TogglePosts = () => {
+    console.log("postsOpen", postsOpen);
+    setPostsOpen(!postsOpen);
+    if (togglePostsFromHome) {
+      togglePostsFromHome(!postsOpen);
+    }
   };
 
   return (
@@ -177,11 +191,17 @@ const HeaderComponent = () => {
 
       <SubHeaderComponent
         onClick={toggleMenu}
+        togglePosts={TogglePosts}
         searchOpen={searchOpen}
         toggleSearch={toggleSearch}
       />
 
-      {searchOpen && <SearchComponent toggleSearch={toggleSearch} />}
+      {searchOpen && (
+        <SearchComponent
+          toggleSearch={toggleSearch}
+          togglePosts={togglePosts}
+        />
+      )}
     </>
   );
 };

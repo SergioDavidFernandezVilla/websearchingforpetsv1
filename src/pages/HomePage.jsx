@@ -3,14 +3,13 @@ import "../css/Home.css";
 import HeaderComponent from "../components/HeaderComponent";
 import PostUserComponent from "../components/PostUserComponent";
 
-// Importar JSON
 import JsonPostUser from "../service/JsonPostUser";
 
 const HomePage = () => {
   const [modal, setModal] = useState(false);
   const [posts, setPosts] = useState([]);
+  const [postsOpen, setPostsOpen] = useState(false);
 
-  // Cargar datos del JSON al montar el componente
   useEffect(() => {
     const data = JsonPostUser();
     setPosts(data.DetallesUrgencias);
@@ -20,20 +19,91 @@ const HomePage = () => {
     setModal(!modal);
   };
 
-  const ModalText = () => {
+  const handleTogglePosts = (isOpen) => {
+    setPostsOpen(isOpen);
+  };
+
+  const ModalText = ({ handleTogglePosts }) => {
     return (
       <div className="modal">
-        <h2>Modal</h2>
-        <button onClick={ModalPostShare}>Close</button>
+        <div className="container_modal_close">
+          <button
+            className="container_modal_close_btn"
+            onClick={() => handleTogglePosts(false)}
+          >
+            X
+          </button>
+        </div>
+
+        <header className="modal_header">
+          <h2 className="modal_header_h2">Subir un post</h2>
+        </header>
+
+        <form className="form_modal">
+          <div className="form_modal_div">
+            <label className="form_modal_label">Título:</label>
+            <input
+              className="form_modal_input"
+              type="text"
+              placeholder="Escribe tu título"
+            />
+          </div>
+
+          <div className="form_modal_div">
+            <label className="form_modal_label">Descripción:</label>
+            <textarea
+              className="form_modal_input"
+              placeholder="Escribe tu descripción"
+            />
+          </div>
+
+          <div className="form_modal_div">
+            <label className="form_modal_label">Imagen:</label>
+            <input
+              className="form_modal_input"
+              type="file"
+              placeholder="Cargar imagen"
+            />
+          </div>
+
+          <div className="form_modal_div">
+            <label className="form_modal_label">Comentario:</label>
+            <textarea
+              className="form_modal_input"
+              placeholder="Escribe tu comentario"
+            />
+          </div>
+
+          <div className="form_modal_div">
+            <label className="form_modal_label">Etiquetas:</label>
+            <input
+              className="form_modal_input"
+              type="text"
+              placeholder="Escribe tus etiquetas"
+            />
+          </div>
+
+          <div className="form_modal_btn">
+            <button type="submit" className="form_modal_btn">
+              Guardar
+            </button>
+          </div>
+        </form>
       </div>
     );
   };
 
   return (
     <>
-      <HeaderComponent />
+      <HeaderComponent togglePostsFromHome={handleTogglePosts} />
 
       <div className="container_home_page">
+        {postsOpen && (
+          <div className="modal_container">
+            <ModalText handleTogglePosts={handleTogglePosts} />
+          </div>
+        )}
+
         <div className="container_posts_users">
           {posts.map((post) => (
             <PostUserComponent
@@ -48,8 +118,6 @@ const HomePage = () => {
             />
           ))}
         </div>
-
-        {modal && <ModalText />}
       </div>
     </>
   );

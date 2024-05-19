@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 import SearchIcon from "../assets/Icons/icon_search.png";
 import AddPostIcon from "../assets/Icons/icon_addpost2.png";
 
-const SubHeaderComponent = ({ onClick, searchOpen, toggleSearch }) => {
+const SubHeaderComponent = ({
+  onClick,
+  searchOpen,
+  toggleSearch,
+  togglePosts,
+}) => {
   return (
     <header className="header_hero header_hero_segundo">
       <nav className="header_nav_segundo">
@@ -17,7 +22,7 @@ const SubHeaderComponent = ({ onClick, searchOpen, toggleSearch }) => {
           </figure>
         </Link>
 
-        <Link className="header_nav_segundo_link">
+        <Link className="header_nav_segundo_link" onClick={togglePosts}>
           <figure className="figure_img_nav_segundo">
             <img
               src={AddPostIcon}
