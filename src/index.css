@@ -1148,7 +1148,7 @@ body {
                   height: 290px;
                   
                   position: absolute;
-                  top:-80px;
+                  top:-25px;
 
                   & .img_detalle_veterinaria_page_article{
                       width: 100%;
@@ -2253,7 +2253,7 @@ body {
                     height: 350px;
                     
                     position: absolute;
-                    top:-80px;
+                    top:-8px;
 
                     & .img_detalle_veterinaria_page_article{
                         width: 100%;
@@ -3229,7 +3229,7 @@ body {
                     height: 350px;
                     
                     position: absolute;
-                    top:-100px;
+                    top:-10px;
 
                     & .img_detalle_veterinaria_page_article{
                         width: 100%;
