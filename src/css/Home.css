@@ -8,6 +8,7 @@
     width: 100%;
     height: fit-content;
     position: relative;
+    padding: 15px;
   
     & .container_posts_users{
       margin-top: 20px;

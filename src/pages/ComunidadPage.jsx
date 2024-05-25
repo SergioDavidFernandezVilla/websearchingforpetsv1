@@ -1,5 +1,6 @@
 import PostComunidadComponent from "../components/PostComunidadComponent";
 import HeaderComponent from "../components/HeaderComponent";
+import FooterComponent from "../components/FooterComponent";
 import { useState } from "react";
 
 //IMAGENES PERFIL
@@ -117,6 +118,8 @@ const ComunidadPage = () => {
           />
         </div>
       </div>
+
+      <FooterComponent></FooterComponent>
     </>
   );
 };

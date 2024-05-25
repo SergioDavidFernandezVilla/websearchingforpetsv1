@@ -13,6 +13,9 @@ import DetallePostUrgencias from "./components/DetallePostUrgenciasComponent";
 import SharePostPage from "./pages/SharePostPage";
 import PostDetailPage from "./pages/PostDetailPage";
 import PostDetailVeterinaria from "./pages/PostDetailVeterinaria";
+import AboutPage from "./pages/AboutPage";
+import VisionPage from "./pages/VisionPage";
+import MisionPage from "./pages/MisionPage";
 
 function App() {
   return (
@@ -41,6 +44,10 @@ function App() {
         <Route path="/iniciar-session" element={<IniciarSessionPage />} />
         <Route path="/register" element={<RegistrarsePage />} />
         <Route path="/ajustes" element={<AjustesPage />} />
+        <Route path="/acerca-nosotros" element={<AboutPage />}></Route>
+        <Route path="/mision" element={<MisionPage />}></Route>
+        <Route path="/vision" element={<VisionPage />}></Route>
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

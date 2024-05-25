@@ -1,6 +1,7 @@
 import { useState } from "react";
 import HeaderComponent from "../components/HeaderComponent";
 import PostVeterinariasComponent from "../components/PostVeterinariasComponent";
+import FooterComponent from "../components/FooterComponent";
 import "../css/Veterinarias.css";
 
 // IMAGENES VETERINARIAS
@@ -126,6 +127,8 @@ const VeterinariasPage = () => {
           />
         </div>
       </div>
+
+      <FooterComponent></FooterComponent>
     </>
   );
 };

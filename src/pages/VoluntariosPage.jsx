@@ -1,6 +1,7 @@
 import { useState } from "react";
 import HeaderComponent from "../components/HeaderComponent";
 import PostVoluntariosComponent from "../components/PostVoluntariosComponent";
+import FooterComponent from "../components/FooterComponent";
 import "../css/Voluntarios.css";
 
 // IMAGENES PERFIL
@@ -117,6 +118,8 @@ const VoluntariosPage = () => {
           </div>
         </div>
       </div>
+
+      <FooterComponent></FooterComponent>
     </>
   );
 };

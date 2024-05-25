@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import HeaderComponent from "../components/HeaderComponent";
 import PostUrgenciasComponent from "../components/PostUrgenciasComponent";
+import FooterComponent from "../components/FooterComponent";
 
 //IMAGENES PERFIL
 import photoperfil1 from "../assets/img/photo_perfil1.webp";
@@ -97,6 +98,8 @@ const UrgenciasPage = () => {
           </Link>
         </div>
       </div>
+
+      <FooterComponent></FooterComponent>
     </>
   );
 };

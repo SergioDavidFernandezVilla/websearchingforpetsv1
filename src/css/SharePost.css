@@ -32,6 +32,7 @@
            
     
             & .h2_share_post_page{
+                text-align: center;
                 font-size: 26px;
                 font-weight: 700;
                 color:black;
@@ -45,9 +46,8 @@
                 font-size: 20px;
                 font-weight: 700;
                 color:black;
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
+                text-align: center;
+                
 
                 & .strong_share_post_page{
                     font-weight: 900;

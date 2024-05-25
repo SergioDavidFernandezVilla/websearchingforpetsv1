@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../css/Home.css";
 import HeaderComponent from "../components/HeaderComponent";
 import PostUserComponent from "../components/PostUserComponent";
-
+import FooterComponent from "../components/FooterComponent";
 import JsonPostUser from "../service/JsonPostUser";
 
 const HomePage = () => {
@@ -119,6 +119,8 @@ const HomePage = () => {
           ))}
         </div>
       </div>
+
+      <FooterComponent></FooterComponent>
     </>
   );
 };
