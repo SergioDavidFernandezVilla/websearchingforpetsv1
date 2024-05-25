@@ -1,9 +1,10 @@
 .container_mision{
-    height: 100dvh;
+    height: 100%;
     width: 100%;
     display: grid;
     place-content: center;
     align-items: center;
+    margin-top: 20px;
 
     .contenido_mision{
         width: 860px;
