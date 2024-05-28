@@ -18,6 +18,7 @@ const ContenidoDetallesPosturgenciasComponent = ({
               Regresar al inicio urgencias
             </Link>
           </div>
+
           <header className="header_post_detalles">
             <img
               className="img_detalles_perfil"
