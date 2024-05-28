@@ -108,21 +108,6 @@ const HeaderComponent = ({ togglePostsFromHome }) => {
                   </li>
 
                   <li className="menu_despejable_li">
-                    <Link className="menu_despejable_li_link" to="/comunidad">
-                      <p className="menu_despejable_li_p">
-                        <strong className="menu_despejable_li_strong">
-                          COMUNIDAD
-                        </strong>
-                      </p>
-                      <img
-                        className="menu_despejable_li_img"
-                        src={comunidad}
-                        alt="icono_notificaciones"
-                      />
-                    </Link>
-                  </li>
-
-                  <li className="menu_despejable_li">
                     <Link className="menu_despejable_li_link" to="/urgencias">
                       <p className="menu_despejable_li_p">
                         <strong className="menu_despejable_li_strong">

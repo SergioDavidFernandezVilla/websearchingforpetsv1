@@ -5,7 +5,6 @@ import HomePage from "./pages/HomePage";
 import RegistrarsePage from "./pages/RegistrarsePage";
 import VeterinariasPage from "./pages/VeterinariasPage";
 import VoluntariosPage from "./pages/VoluntariosPage";
-import ComunidadPage from "./pages/ComunidadPage";
 import NotFound from "./pages/NotFound";
 import AjustesPage from "./pages/AjustesPage";
 import UrgenciasPage from "./pages/UrgenciasPage";
@@ -25,7 +24,6 @@ function App() {
         <Route path="/post/share" element={<SharePostPage />} />
         <Route path="/veterinarias" element={<VeterinariasPage />} />
         <Route path="/voluntarios" element={<VoluntariosPage />} />
-        <Route path="/comunidad" element={<ComunidadPage />} />
 
         <Route path="/post/:slug" element={<PostDetailPage />} />
         <Route

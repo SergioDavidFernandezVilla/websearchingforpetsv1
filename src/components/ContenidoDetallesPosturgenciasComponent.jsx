@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import "../css/DetallesPost.css";
-
-import icono1 from "../assets/Icons/icon_llamada.png";
 import icono2 from "../assets/Icons/icon_compartir.png";
 
 const ContenidoDetallesPosturgenciasComponent = ({
@@ -41,15 +39,7 @@ const ContenidoDetallesPosturgenciasComponent = ({
               <p className="p_descripcion_detalles">{Descripcion}</p>
 
               <div className="container_icons">
-                <Link className="link_icons_detalles">
-                  <img
-                    className="img_icon_detalles"
-                    src={icono1}
-                    alt="icono-llamada"
-                  />
-                </Link>
-
-                <Link className="link_icons_detalles">
+                <Link className="link_icons_detalles" to="/post/share">
                   <img
                     className="img_icon_detalles"
                     src={icono2}
